@@ -1,6 +1,6 @@
 {
   "name": "album-shelf",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Collection of music records I love, maintained with Jekyll on Github Pages",
   "main": "index.md",
   "scripts": {
