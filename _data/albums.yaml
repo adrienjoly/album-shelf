@@ -1,3 +1,6 @@
+# Reference documentation of the YAML format:
+# https://symfony.com/doc/current/components/yaml/yaml_format.html
+
 - title: Survived the great flood
   artist: Man is not a bird
   release_date: 2015-03-26
