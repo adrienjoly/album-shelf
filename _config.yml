@@ -1,0 +1,29 @@
+title: # Name of your blog (this will show up at the top of your page and in the RSS feed)
+  Adrien Joly
+
+author: # Your name, as you want it to appear underneath each post and in the footer
+  Adrien Joly
+
+desc: Collection of music records I love, maintained with Jekyll on Github Pages
+
+keywords: music, albums, records, collection, jekyll, static-web
+
+repository: adrienjoly/album-shelf
+
+google_analytics: UA-1858235-4
+
+# github defaults
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+theme: jekyll-theme-primer
+gfm_quirks: paragraph_end
+
+# additional config
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock

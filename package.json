@@ -1,0 +1,28 @@
+{
+  "name": "album-shelf",
+  "version": "1.0.0",
+  "description": "Collection of music records I love, maintained with Jekyll on Github Pages",
+  "main": "index.md",
+  "scripts": {
+    "post-install": "gem install bundler && bundle install # this command requires ruby to be installed (ruby-lang.org)",
+    "start": "bundle exec jekyll serve --incremental"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrienjoly/album-shelf.git"
+  },
+  "keywords": [
+    "music",
+    "albums",
+    "records",
+    "collection",
+    "jekyll",
+    "static-web"
+  ],
+  "author": "Adrien Joly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrienjoly/album-shelf/issues"
+  },
+  "homepage": "https://github.com/adrienjoly/album-shelf#readme"
+}
