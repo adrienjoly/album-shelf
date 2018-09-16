@@ -28,8 +28,7 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
   return {
     playlist: {
       id: playlist.id,
-      name: playlist.name,
-      total_tracks: playlist.tracks.total
+      name: playlist.name
     },
     album: isFullAlbum && {
       id: album.id,
@@ -63,26 +62,27 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
   console.warn(`username: ${username}`)
   console.warn(`Exporting albums from ${nbPlaylists} playlists, to stdout...`)
   let { playlists } = await spotify.loadAllPlaylists({ username })
-  // console.log(JSON.stringify(playlists, null, 2))
 
-  // detecting playlists that are albums
-  // playlists = playlists.slice(0, 2) // TODO: remove this line
+  // exporting albums from playlists
   const processedPlaylists = await util.promisify(async.mapSeries)(playlists, async playlist => {
     const { body } = await spotify.getPlaylistTracks({ url: playlist.tracks.href })
     const { album } = await detectAlbumFromTracks({ playlist, playlistTracks: body })
-    console.warn(`${album ? '☑' : '☐'}  ${playlist.name} (${playlist.tracks.total})`)
+    console.warn(`   ${album ? '☑' : '☐'}  ${playlist.name} (${playlist.tracks.total})`)
     if (album) console.log(yaml.dump([ album ])) // dumps yaml to stdin
     return { playlist, album }
   })
 
-  const nonAlbums = processedPlaylists.filter(album => !album)
+  const nonAlbums = processedPlaylists.filter(({ album }) => !album)
 
   console.warn()
   console.warn(`✅  Done processing ${processedPlaylists.length} / ${nbPlaylists} playlists!`)
-  console.warn(`=> Extracted ${processedPlaylists.length - nonAlbums.length} albums to stdin`)
+  console.warn(`   => Extracted ${processedPlaylists.length - nonAlbums.length} albums to stdin`)
   console.warn()
   console.warn(`ℹ️  The following ${nonAlbums.length} playlists are not albums:`)
-  console.warn(yaml.dump(nonAlbums))
+  console.warn(nonAlbums
+    .map(({ playlist }) => `   ☐ ${playlist.name} (${playlist.tracks.total})`)
+    .join('\n')
+  )
 
   // done.
   process.exit(0)
