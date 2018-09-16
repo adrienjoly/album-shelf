@@ -1,3 +1,4 @@
 _site
 .jekyll-metadata
+.env
 node_modules
