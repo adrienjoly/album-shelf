@@ -31,6 +31,11 @@ class SpotifyClient {
     this.spotifyApi.setRefreshToken(refreshToken)
   }
 
+  async getMe () {
+    this.me = this.me || (await this.spotifyApi.getMe()).body
+    return this.me
+  }
+
   async loadAllPlaylists ({ username }) {
     let playlists = []
     const limit = 50

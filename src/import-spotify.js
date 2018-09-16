@@ -29,8 +29,7 @@ function askQuestion (query) {
   }
   const { spotify } = spotifyClient
   // fetch and print user's playlists
-  const username = process.env.SPOTIFY_USERNAME || await askQuestion('Spotify username: ')
-  const { playlists } = await spotify.loadAllPlaylists({ username })
+  const { playlists } = await spotify.loadAllPlaylists({ username: (await spotify.getMe()).id })
   console.log(JSON.stringify(playlists, null, 2))
   // done.
   process.exit(0)
