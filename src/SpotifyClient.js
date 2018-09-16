@@ -46,6 +46,12 @@ class SpotifyClient {
     }
     return appendNextPlaylists({ offset: 0 })
   }
+
+  async getPlaylistTracks ({ url }) {
+    const RE_PL_URL = /https:\/\/api.spotify.com\/v1\/playlists\/([a-zA-Z0-9]+)\/tracks/
+    const plId = RE_PL_URL.exec(url)[1]
+    return this.spotifyApi.getPlaylistTracks(plId)
+  }
 }
 
 /**
