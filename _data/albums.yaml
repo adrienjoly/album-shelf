@@ -13,6 +13,7 @@
 
 - title: Blood Sugar Sex Magik
   artist: Red Hot Chili Peppers
+  release_date: '1991-09-24'
   tags: [ rock, funk ]
   img: https://i.scdn.co/image/5a6a1c6514398dc4004c6348a83d77694a3883d4
   url: https://open.spotify.com/album/30Perjew8HyGkdSmqguYyg
@@ -25,6 +26,7 @@
 
 - title: American Football
   artist: American Football
+  release_date: '2014-05-16'
   tags: [ post-rock, indie-rock ]
   img: https://i.scdn.co/image/34348c73bd5322bd0a2c2df4839d8f0dba81a73c
   url: https://open.spotify.com/album/7MZVTvSgVy8YEzzFXejFO7
@@ -34,3 +36,304 @@
   tags: [ jazz, classical, instrumental ]
   img: https://i.scdn.co/image/fc309b32a1fe2267d0452c240a1b2f5aca55fa2f
   url: https://open.spotify.com/album/3YDZkr9mlzIMNId8YmQGHr
+
+- title: Domino
+  artist: Dan San
+  release_date: '2012-01-30'
+  tags: [ folk, choir, belgium ]
+  img: 'https://i.scdn.co/image/3cae1e358e879e01885e7afefb0f7067cfcd01ff'
+  url: 'https://open.spotify.com/album/0CwE2j27CTZgHG3678Sj5T'
+
+- title: The Instinct
+  artist: Denali
+  release_date: '2003-10-28'
+  tags: [ emo, female ]
+  img: 'https://i.scdn.co/image/0fe5994fd547f4666796f14b20a207336ed5e831'
+  url: 'https://open.spotify.com/album/4iAvomPnlOW9HnbKw4VCwM'
+
+- title: Denali
+  artist: Denali
+  release_date: '2002-04-16'
+  tags: [ emo, female ]
+  img: 'https://i.scdn.co/image/b80d5398e1376e2c356fbf54b03b445b518ad678'
+  url: 'https://open.spotify.com/album/1dTa8wSOklmcSNBGrMQWqn'
+
+- title: Close To The Edge (Deluxe Version)
+  artist: 'Yes'
+  release_date: '1972-09-13'
+  tags: [ prog-rock, vintage ]
+  img: 'https://i.scdn.co/image/073173d0302f201489fe8ead384bc85dcabb815a'
+  url: 'https://open.spotify.com/album/6344rkGqCBDenGoS7eJlBN'
+
+- title: Última noticia
+  artist: 'Yissy García, Bandancha'
+  release_date: '2015'
+  tags: [ jazz, latin ]
+  img: 'https://i.scdn.co/image/596a022d6ae47b38fa266f30ff968b660182cdfc'
+  url: 'https://open.spotify.com/album/3W8FqrBrX4nYlzCiKi1NW9'
+
+- title: Mother's Milk
+  artist: Red Hot Chili Peppers
+  release_date: '1989-08-16'
+  tags: [ rock, funk, vintage ]
+  img: 'https://i.scdn.co/image/5e553d65e84fde60e3293ce2138a52e5f5b3ec10'
+  url: 'https://open.spotify.com/album/1oOkcBu5bgkUzZTvKD1m8z'
+
+- title: The Uplift Mofo Party Plan
+  artist: Red Hot Chili Peppers
+  release_date: '1987'
+  tags: [ rock, funk, vintage ]
+  img: 'https://i.scdn.co/image/84bf42bcc130f847d44e5651f0bddd60f3152981'
+  url: 'https://open.spotify.com/album/6hBlJsSIz4bgjEHjwcLlZ3'
+
+- title: Freaky Styley
+  artist: Red Hot Chili Peppers
+  release_date: '1985-08-16'
+  tags: [ rock, funk, vintage ]
+  img: 'https://i.scdn.co/image/70eedbb4441396ba0aeb016379b8addf74761437'
+  url: 'https://open.spotify.com/album/10Oqhoq2akSJnurJOPk8xT'
+
+- title: Stereolithic
+  artist: '311'
+  release_date: '2014-03-11'
+  tags: [ rock, funk, energy ]
+  img: 'https://i.scdn.co/image/de9fcb6d1af46d3d761a825a101b57540df92fd2'
+  url: 'https://open.spotify.com/album/6grw0BU5NwvuvMmoxMAlaO'
+
+- title: In Rainbows
+  artist: Radiohead
+  release_date: '2007-12-28'
+  tags: [ rock, complex ]
+  img: 'https://i.scdn.co/image/00d97c99f9fb5872e9a44f06ae7e20fd011de125'
+  url: 'https://open.spotify.com/album/7eyQXxuf2nGj9d2367Gi5f'
+
+- title: Promise Everything (Deluxe)
+  artist: Basement
+  release_date: '2017-03-03'
+  tags: [ rock, emo, energy ]
+  img: 'https://i.scdn.co/image/2a2358ec7b840131992c6d83fd5844f641d119a7'
+  url: 'https://open.spotify.com/album/2Ic7SVaZu6loRXczS4VfYP'
+
+- title: Silent Witness
+  artist: Overhead
+  release_date: '2002'
+  tags: [ jazz, rock, complex, weed ]
+  img: 'https://i.scdn.co/image/376648ec5ea122d16959eea49fee0c11d72d0dc8'
+  url: 'https://open.spotify.com/album/1M0SVLGbi6SfnmYqj9qUAg'
+
+- title: Heavy Meddlers
+  artist: Father Figure
+  release_date: '2014-09-26'
+  tags: [ prog-rock, math-rock, complex ]
+  img: 'https://i.scdn.co/image/43b01623180240496c25ad83448803f4d558c091'
+  url: 'https://open.spotify.com/album/1O2M4SZ34IV21FLTFikI3c'
+
+- title: Frames
+  artist: Oceansize
+  release_date: '2013-03-05'
+  tags: [ prog-rock, math-rock, complex ]
+  img: 'https://i.scdn.co/image/4af58e48f6de312cd0b3b3a8beecf1a75ed5c0b8'
+  url: 'https://open.spotify.com/album/5lsYxQgeDven09644Fs97m'
+
+- title: The Phosphorescent Blues
+  artist: Punch Brothers
+  release_date: '2015-01-23'
+  tags: [ folk, weed ]
+  img: 'https://i.scdn.co/image/c0b93a28c335c0158b4c44e70594f8206c33d9e8'
+  url: 'https://open.spotify.com/album/3cdqpjwuTvDeLe3RYIGb0j'
+
+- title: Demure
+  artist: Engine Down
+  release_date: '2002-04-01'
+  tags: [ emo, rock ]
+  img: 'https://i.scdn.co/image/04142f77b40680c626503f3c4b5cfb2a9c3344d0'
+  url: 'https://open.spotify.com/album/0tQYFiRlfKm5Cav5tzzVqG'
+
+- title: Antenna
+  artist: Cave In
+  release_date: '2003-02-24'
+  tags: [ emo, rock, space-rock ]
+  img: 'https://i.scdn.co/image/43b2ce36af2d008ea6d67516b71e9bfdef35602c'
+  url: 'https://open.spotify.com/album/4xJntSIrIWIbGurovNQbTh'
+
+- title: Magnified
+  artist: Failure
+  release_date: '2005'
+  tags: [ emo, rock, space-rock ]
+  img: 'https://i.scdn.co/image/2599ff4c8e98e330935b44e97e727ad28958327f'
+  url: 'https://open.spotify.com/album/4O0LosfrwDyFz8U3gJOWSf'
+
+- title: Science Fiction
+  artist: Brand New
+  release_date: '2017-08-18'
+  tags: [ dj, trip-hop, weed ]
+  img: 'https://i.scdn.co/image/6b05b76a0d375c00c2f124351e8af46fe36c605d'
+  url: 'https://open.spotify.com/album/37Rzq4SAqeFWLZWL0ScrcC'
+
+- title: 'Thunder, Lightning, Strike'
+  artist: The Go! Team
+  release_date: '2004-10-02'
+  tags: [ energy, break-beat, rap ]
+  img: 'https://i.scdn.co/image/a7e48eedacfdd364d8c9124643f66b0e92b95c03'
+  url: 'https://open.spotify.com/album/0gEMKvij1A59fVQQ7A7bor'
+
+- title: Are We There
+  artist: Sharon Van Etten
+  release_date: '2014-05-27'
+  tags: [ rock, folk, dark, weed ]
+  img: 'https://i.scdn.co/image/3e30b9d97b322f7cf7d9c295c530a78a072ff973'
+  url: 'https://open.spotify.com/album/0F1pMhF8Vy74nKkQeLBfrd'
+
+- title: This Time
+  artist: James & Black
+  release_date: '2017-07-12'
+  tags: [ blues, jazz, soul ]
+  img: 'https://i.scdn.co/image/22495622532415e71fa8909d73a7fc6b6f7f87dd'
+  url: 'https://open.spotify.com/album/6NOyh86Dq30O2QA6N5MChR'
+
+- title: Afrodeezia
+  artist: Marcus Miller
+  release_date: '2015-03-02'
+  tags: [ jazz, world ]
+  img: 'https://i.scdn.co/image/206b9f9c945f13054aa36f2da9e5cc64a55bca15'
+  url: 'https://open.spotify.com/album/67Sb6f1dsjHZXnBr3R5IDP'
+
+- title: La transe des oiseaux
+  artist: Le Vasco
+  release_date: '2016'
+  tags: [ trip-hop, hip-hop, france ]
+  img: 'https://i.scdn.co/image/23c1c31c8eaef57e953fe1521a45f12aafba35d2'
+  url: 'https://open.spotify.com/album/7EaTftlyw0WFpJI0cuEZqT'
+
+- title: Colourmeinkindness
+  artist: Basement
+  release_date: '2012-10-23'
+  tags: [ rock, emo, energy ]
+  img: 'https://i.scdn.co/image/2433b0521c86833ceb29770c8ba5785cccfec954'
+  url: 'https://open.spotify.com/album/70yn72rS28G1jieaBHlZhY'
+
+- title: Restlessness
+  artist: Man Is Not a Bird
+  release_date: '2012-11-12'
+  tags: [ instrumental, post-rock, math-rock ]
+  img: 'https://i.scdn.co/image/4947f6b88cf9f42606488d9c8430e6ad7d37d3cc'
+  url: 'https://open.spotify.com/album/38Bxx6rQBsagbArp36RqEM'
+
+- title: Hisaishi Meets Miyazaki Films
+  artist: Joe Hisaishi
+  release_date: '1997'
+  tags: [ classical, ost, poetry, introspective, instrumental ]
+  img: 'https://i.scdn.co/image/dc604b25adcb92118603f85f1393b0ccb752569d'
+  url: 'https://open.spotify.com/album/1CUj4bfDadfeQE6MBkDili'
+
+- title: Cleanhead EP
+  artist: Oceana
+  release_date: '2010-05-10'
+  tags: [ emo, post-rock, math-rock, introspective ]
+  img: 'https://i.scdn.co/image/f655536e722c1083955dfa56203b7db3874f556e'
+  url: 'https://open.spotify.com/album/6sUKYFZet57qfn9IlOCk5Y'
+
+- title: Simplicity
+  artist: Curtiss
+  release_date: '2005-10-01'
+  tags: [ emo, rock, introspective ]
+  img: 'https://i.scdn.co/image/e1a2e7cfdc1c386b560a132043b04518ffec53fd'
+  url: 'https://open.spotify.com/album/4cgXduilLVjNuIMBIbUUIN'
+
+- title: 'Ghost Days [New Edition]'
+  artist: Syd Matters
+  release_date: '2008-08-22'
+  tags: [ folk, introspective ]
+  img: 'https://i.scdn.co/image/8fe13589f527ba43e2d2ab351950920bec9b9e8d'
+  url: 'https://open.spotify.com/album/6FUbegmhKrMRmq1qk9OkbG'
+
+- title: An Awesome Wave
+  artist: alt-J
+  release_date: '2012-05-28'
+  tags: [ folk, introspective, popular, trip-hop ]
+  img: 'https://i.scdn.co/image/3d0d4e13e80545a24977e6aed728c4b43760b194'
+  url: 'https://open.spotify.com/album/7HOzvP7Ta2lLueojdlJtdZ'
+
+- title: 'Distant Worlds: music from Final Fantasy'
+  artist: Nobuo Uematsu
+  release_date: '2007-12-04'
+  tags: [ classical, ost, instrumental ]
+  img: 'https://i.scdn.co/image/46ab300fa7bb81a8bd60a079c22d5c14fad3ce3d'
+  url: 'https://open.spotify.com/album/51MXEvD96cIH8oOhWanzW3'
+
+- title: Orbits
+  artist: Starkey
+  release_date: '2012-11-26'
+  tags: [ dark, electronic, trap, instrumental, urban ]
+  img: 'https://i.scdn.co/image/f13c89b82eacde86535182ab8893869b10cafb5b'
+  url: 'https://open.spotify.com/album/3BvQfIHiCdsJhkB6RjPZsL'
+
+- title: Crime Of The Century (Remastered)
+  artist: Supertramp
+  release_date: '1974-09-01'
+  tags: [ vintage, rock, popular ]
+  img: 'https://i.scdn.co/image/600009f307d3ceb167713ca4b2672ec525aed7ba'
+  url: 'https://open.spotify.com/album/3Fv4TJQ9iQ0DCLHv02122Z'
+
+- title: Pet Genius
+  artist: Pet Genius
+  release_date: '2007'
+  tags: [ folk, rock, prog-rock ]
+  img: 'https://i.scdn.co/image/7ee0aa9c58e8b9f018b8e0542608e8467739adfc'
+  url: 'https://open.spotify.com/album/1YIyigEfa0xAUcgNUnXrXr'
+
+- title: Sky Eats Airplane
+  artist: Sky Eats Airplane
+  release_date: '2008-08-05'
+  tags: [ post-hardcore, metalcore, math-rock, complex, nitendocore ]
+  img: 'https://i.scdn.co/image/b36ce48fee0bfb76065049be5fa6a1abe92a2cc5'
+  url: 'https://open.spotify.com/album/4RbrNUOYSLqFk4iLj4XOup'
+
+- title: Weatherhead
+  artist: Helms Alee
+  release_date: '2011-08-23'
+  tags: [ dark, post-hardcore, post-rock, complex ]
+  img: 'https://i.scdn.co/image/4f3545ac7e8d9e1f98345063bc5d243fbc315ab0'
+  url: 'https://open.spotify.com/album/3FbDywNXHWkgt7lCAYuyNA'
+
+- title: Light Bearer
+  artist: '&u&i'
+  release_date: '2011-10-07'
+  tags: [ emo, post-hardcore, rock, complex, energy ]
+  img: 'https://i.scdn.co/image/e61afa2c0ab030eac823a7231376ff65cdf02b5b'
+  url: 'https://open.spotify.com/album/6ADUtTlNjDWxAI7VBtu2SF'
+
+- title: Controller
+  artist: Misery Signals
+  release_date: '2008'
+  tags: [ post-hardcore, emo, metalcore, complex, power ]
+  img: 'https://i.scdn.co/image/94aa3e557cba0b159ad208c4eee9d51fb946a4b1'
+  url: 'https://open.spotify.com/album/48QUEWlstIprnOzPkLeBa8'
+
+- title: Into The Valley Of Death
+  artist: Death By Stereo
+  release_date: '2004-10-01'
+  tags: [ post-hardcore, emo, energy ]
+  img: 'https://i.scdn.co/image/f18e27e196356c0d1744af64ad81a344eae382a8'
+  url: 'https://open.spotify.com/album/2rBYvtzGKWmm6qkR7wmVoz'
+
+- title: Messengers
+  artist: August Burns Red
+  release_date: '2007'
+  tags: [ post-hardcore, metalcore, complex, emo ]
+  img: 'https://i.scdn.co/image/7c446d4a6404695397f7e9f5a2047b6a99c1d73f'
+  url: 'https://open.spotify.com/album/16IJpaLM33ISHUuJdJwCYT'
+
+- title: The Tide
+  artist: Oceana
+  release_date: '2008-03-04'
+  tags: [ post-hardcore, metalcore, complex, emo ]
+  img: 'https://i.scdn.co/image/185b4d99728c27aaafea8de4f45c5454014039b5'
+  url: 'https://open.spotify.com/album/4bH4rLc8rKL5PpTctUsfYK'
+
+- title: The Opposite Of December / Tear From The Red
+  artist: Poison The Well
+  release_date: '2012-11-19'
+  tags: [ post-hardcore, metalcore, complex, emo ]
+  img: 'https://i.scdn.co/image/948c974e81b46b514ce2dac1eb41a0deb0c2d3c5'
+  url: 'https://open.spotify.com/album/6a29de1cUHKgnExT3wgu8y'
