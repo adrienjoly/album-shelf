@@ -2,19 +2,5 @@
 title: My Albums
 ---
 
-{% for album in site.data.albums %}
-  <article>
-    <a href="{{ album.url }}">
-      <img src="{{ album.img }}" alt="{{ album.title }} {{ album.artist }}"/>
-      <p>{{ album.title }}</p>
-    </a>
-    <p>by {{ album.artist }}</p>
-    {% if album.tags %}
-      {% for tag in album.tags %}
-        <span class="tag">{{ tag }}</span>
-      {% endfor %}
-    {% else %}
-      <span class="release-date">{{ album.release_date | date: "%b %-d, %Y" }}</span>
-    {% endif %}
-  </article>
-{% endfor %}
+<!-- listed from _data/albums.yaml -->
+{% include album-list.html list=site.data.albums %}

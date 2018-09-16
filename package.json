@@ -5,6 +5,7 @@
   "main": "index.md",
   "scripts": {
     "install": "gem install bundler && bundle install # requires ruby-lang.org",
+    "build": "bundle exec jekyll build",
     "start": "bundle exec jekyll serve --incremental",
     "export:spotify-playlists": "node src/export-from-spotify-playlists.js"
   },
