@@ -19,11 +19,15 @@ function askQuestion (query) {
 
 (async () => {
   // auth to spotify account => get spotify api client
-  const { spotify } = await SpotifyClient.getSpotifyClient({
+  const spotifyClient = await SpotifyClient.getSpotifyClientFromSessionFileIfPossible({
     scopes: ['user-read-private'],
     clientId: process.env.SPOTIFY_CLIENT_ID || await askQuestion('Spotify client id: '),
     clientSecret: process.env.SPOTIFY_CLIENT_SECRET || await askQuestion('Spotify client secret: ')
   })
+  if (spotifyClient && spotifyClient.accessToken) {
+    await SpotifyClient.saveSpotifySessionFile(spotifyClient)
+  }
+  const { spotify } = spotifyClient
   // fetch and print user's playlists
   const username = process.env.SPOTIFY_USERNAME || await askQuestion('Spotify username: ')
   const { playlists } = await spotify.loadAllPlaylists({ username })

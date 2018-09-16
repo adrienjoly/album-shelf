@@ -1,4 +1,5 @@
 _site
 .jekyll-metadata
 .env
+.spotify-session.json
 node_modules

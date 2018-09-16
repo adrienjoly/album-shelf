@@ -1,7 +1,11 @@
+const fs = require('fs')
+const util = require('util')
 const url = require('url')
 const http = require('http')
 const querystring = require('querystring')
 const SpotifyWebApi = require('spotify-web-api-node')
+
+const SESSION_FILENAME = '.spotify-session.json'
 
 const oauthCallback = async ({ port }) =>
   new Promise((resolve, reject) => {
@@ -39,8 +43,15 @@ class SpotifyClient {
   }
 }
 
-module.exports = SpotifyClient
-module.exports.getSpotifyClient = async ({ clientId, clientSecret, scopes }) => {
+/**
+ * get a spotify client by asking user to auth on spotify.com and provide permissions
+ * @param {Object} p - (compound parameters)
+ * @param {String} p.clientId - Spotify app's client ID
+ * @param {String} p.clientSecret - Spotify app's client secret
+ * @param {Array} p.scopes - List of permissions required by the app
+ * @returns {Object} - contains { spotify, spotifyApi, accessToken, refreshToken }
+ */
+const getSpotifyClient = async ({ clientId, clientSecret, scopes }) => {
   const PORT = 9000
 
   // credentials are optional
@@ -64,4 +75,47 @@ module.exports.getSpotifyClient = async ({ clientId, clientSecret, scopes }) => 
     spotify,
     spotifyApi: spotify.spotifyApi
   }
+}
+
+/**
+ * save a spotify session to `.spotify-session`, for faster next access
+ * @param {Object} p - (compound parameters)
+ * @param {String} p.accessToken - as returned by Spotify after successful auth
+ * @returns {Object} - contains { spotify, spotifyApi, accessToken, refreshToken }
+*/
+const saveSpotifySessionFile = ({ accessToken }) =>
+  util.promisify(fs.writeFile)(SESSION_FILENAME, JSON.stringify({ accessToken }), 'utf8')
+
+/**
+ * get a spotify client by loading an access token from `.spotify-session`
+ * @returns {Object} - contains { spotify, spotifyApi, accessToken, refreshToken }
+ */
+const getSpotifyClientFromSessionFile = async () => {
+  const tokens = require(`${process.cwd()}/${SESSION_FILENAME}`)
+  const spotify = new SpotifyClient(tokens)
+  return {
+    ...tokens,
+    spotify,
+    spotifyApi: spotify.spotifyApi
+  }
+}
+
+/**
+ * get a spotify client by loading an access token from `.spotify-session`, or using getSpotifyClient()
+ * @param {Object} p - (compound parameters)
+ * @param {String} p.clientId - Spotify app's client ID
+ * @param {String} p.clientSecret - Spotify app's client secret
+ * @param {Array} p.scopes - List of permissions required by the app
+ * @returns {Object} - contains { spotify, spotifyApi, accessToken, refreshToken }
+ */
+const getSpotifyClientFromSessionFileIfPossible = ({ clientId, clientSecret, scopes }) =>
+  getSpotifyClientFromSessionFile()
+    .catch(() => getSpotifyClient({ clientId, clientSecret, scopes }))
+
+module.exports = {
+  ...SpotifyClient,
+  getSpotifyClient,
+  saveSpotifySessionFile,
+  getSpotifyClientFromSessionFile,
+  getSpotifyClientFromSessionFileIfPossible
 }
