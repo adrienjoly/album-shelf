@@ -11,7 +11,7 @@ function askQuestion (query) {
   // credits: https://stackoverflow.com/a/50890409/592254
   const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
+    output: process.stderr
   })
   return new Promise(resolve => rl.question(query, ans => {
     rl.close()
@@ -66,11 +66,11 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
   const playlistsWithTracks = await util.promisify(async.mapSeries)(playlists, async playlist => {
     const { body } = await spotify.getPlaylistTracks({ url: playlist.tracks.href })
     const { album } = await detectAlbumFromTracks({ playlist, playlistTracks: body })
-    console.log(`${album ? '✅' : '🗒'} ${playlist.name} (${playlist.tracks.total})`)
+    console.warn(`${album ? '☑' : '☐'}  ${playlist.name} (${playlist.tracks.total})`)
   })
 
   // done.
   process.exit(0)
 })().catch(err => {
-  console.trace(err)
+  console.error(err.stack || err)
 })

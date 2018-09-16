@@ -74,7 +74,7 @@ const getSpotifyClient = async ({ clientId, clientSecret, scopes }) => {
 
   // Create the authorization URL
   const authorizeURL = spotifyApi.createAuthorizeURL(scopes/*, state */)
-  console.log(`open this URL to give your permission:\n👉 ${authorizeURL}\n`)
+  console.warn(`open this URL to give your permission:\n👉 ${authorizeURL}\n`)
 
   const { code } = await oauthCallback({ port: PORT })
   const { body } = await spotifyApi.authorizationCodeGrant(code)
