@@ -40,7 +40,15 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
   }
 }
 
-(async () => {
+const dumpAlbumToStdin = ({ album }) => console.log(yaml.dump([{
+  title: album.name,
+  artist: album.artistName,
+  release_date: album.release_date,
+  img: album.images[0].url,
+  url: `https://open.spotify.com/album/${album.id}`
+}]))
+
+;(async () => {
   // auth to spotify account => get spotify api client
   const spotifyClient = await SpotifyClient.getSpotifyClientFromSessionFileIfPossible({
     scopes: [
@@ -68,7 +76,7 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
     const { body } = await spotify.getPlaylistTracks({ url: playlist.tracks.href })
     const { album } = await detectAlbumFromTracks({ playlist, playlistTracks: body })
     console.warn(`   ${album ? '☑' : '☐'}  ${playlist.name} (${playlist.tracks.total})`)
-    if (album) console.log(yaml.dump([ album ])) // dumps yaml to stdin
+    if (album) dumpAlbumToStdin({ album })
     return { playlist, album }
   })
 
