@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/adrienjoly/album-shelf/issues"
   },
-  "homepage": "https://github.com/adrienjoly/album-shelf#readme"
+  "homepage": "https://github.com/adrienjoly/album-shelf#readme",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
 }
