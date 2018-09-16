@@ -1,12 +1,12 @@
 {
   "name": "album-shelf",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Collection of music records I love, maintained with Jekyll on Github Pages",
   "main": "index.md",
   "scripts": {
     "install": "gem install bundler && bundle install # requires ruby-lang.org",
     "start": "bundle exec jekyll serve --incremental",
-    "import:spotify": "node src/import-spotify.js"
+    "export:spotify-playlists": "node src/export-from-spotify-playlists.js"
   },
   "repository": {
     "type": "git",
