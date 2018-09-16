@@ -1,0 +1,22 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Import from Spotify",
+      /*"program": "${workspaceFolder}/src/import-spotify.js --inspect"*/
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "--nolazy",
+        "--inspect-brk=9229",
+        "${workspaceFolder}/src/import-spotify.js"
+      ],
+      "port": 9229
+    }
+  ]
+}
