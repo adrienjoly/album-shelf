@@ -10,7 +10,7 @@ const SpotifyWebApi = require('spotify-web-api-node')
 
 var SCOPES = ['user-read-private']
 
-const oauthCallback = async ({ port = 9000 }) =>
+const oauthCallback = async ({ port }) =>
   new Promise((resolve, reject) => {
     let server
     const onRequest = (request, response) => {
@@ -26,6 +26,32 @@ const oauthCallback = async ({ port = 9000 }) =>
     server = http.createServer(onRequest).listen(port)
     // console.debug(`oauthCallback server has started on port ${port}.`)
   })
+
+const getSpotifyClient = async () => {
+  const PORT = 9000
+
+  // credentials are optional
+  const spotifyApi = new SpotifyWebApi({
+    clientId: process.env.SPOTIFY_CLIENT_ID || await askQuestion('Spotify client id: '),
+    clientSecret: process.env.SPOTIFY_CLIENT_SECRET || await askQuestion('Spotify client secret: '),
+    redirectUri: `http://localhost:${PORT}/callback`
+  })
+
+  // Create the authorization URL
+  const authorizeURL = spotifyApi.createAuthorizeURL(SCOPES/*, state */)
+  console.log(`open this URL to give your permission:\n👉 ${authorizeURL}\n`)
+
+  const { code } = await oauthCallback({ port: PORT })
+  const { body } = await spotifyApi.authorizationCodeGrant(code)
+  spotifyApi.setAccessToken(body['access_token'])
+  spotifyApi.setRefreshToken(body['refresh_token'])
+
+  return {
+    spotifyApi,
+    accessToken: body['access_token'],
+    refreshToken: body['refresh_token']
+  }
+}
 
 function askQuestion (query) {
   // credits: https://stackoverflow.com/a/50890409/592254
@@ -51,25 +77,9 @@ const loadAllPlaylists = async ({ spotifyApi, username }) => {
 }
 
 (async () => {
-  const port = 9000
-
-  // credentials are optional
-  const spotifyApi = new SpotifyWebApi({
-    clientId: process.env.SPOTIFY_CLIENT_ID || await askQuestion('Spotify client id: '),
-    clientSecret: process.env.SPOTIFY_CLIENT_SECRET || await askQuestion('Spotify client secret: '),
-    redirectUri: `http://localhost:${port}/callback`
-  })
-
-  // Create the authorization URL
-  const authorizeURL = spotifyApi.createAuthorizeURL(SCOPES/*, state */)
-  console.log(`open this URL to give your permission:\n👉 ${authorizeURL}\n`)
-
-  const { code } = await oauthCallback({ port })
-  const { body } = await spotifyApi.authorizationCodeGrant(code)
-  spotifyApi.setAccessToken(body['access_token'])
-  spotifyApi.setRefreshToken(body['refresh_token'])
-
+  const { spotifyApi, accessToken } = await getSpotifyClient()
   const username = process.env.SPOTIFY_USERNAME || await askQuestion('Spotify username: ')
   const { playlists } = await loadAllPlaylists({ spotifyApi, username })
-  console.log(playlists)
+  console.log(JSON.stringify(playlists, null, 2))
+  process.exit(0)
 })().catch(err => { console.error(err) })
