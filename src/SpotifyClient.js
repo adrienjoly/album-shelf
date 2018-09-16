@@ -36,6 +36,11 @@ class SpotifyClient {
     return this.me
   }
 
+  async countPlaylists ({ username }) {
+    const { body } = await this.spotifyApi.getUserPlaylists(username)
+    return body.total
+  }
+
   async loadAllPlaylists ({ username }) {
     let playlists = []
     const limit = 50
