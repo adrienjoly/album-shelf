@@ -74,6 +74,7 @@ const getSpotifyClient = async ({ clientId, clientSecret, scopes }) => {
   const { body } = await spotifyApi.authorizationCodeGrant(code)
   const tokens = { accessToken: body['access_token'], refreshToken: body['refresh_token'] }
   const spotify = new SpotifyClient(tokens)
+  await spotify.getMe() // just to make sure that the session is not expired (statusCode 401)
 
   return {
     ...tokens,
@@ -98,6 +99,7 @@ const saveSpotifySessionFile = ({ accessToken }) =>
 const getSpotifyClientFromSessionFile = async () => {
   const tokens = require(`${process.cwd()}/${SESSION_FILENAME}`)
   const spotify = new SpotifyClient(tokens)
+  await spotify.getMe() // just to make sure that the session is not expired (statusCode 401)
   return {
     ...tokens,
     spotify,
