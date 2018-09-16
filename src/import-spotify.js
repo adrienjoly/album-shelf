@@ -71,7 +71,7 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
     const { body } = await spotify.getPlaylistTracks({ url: playlist.tracks.href })
     const { album } = await detectAlbumFromTracks({ playlist, playlistTracks: body })
     console.warn(`${album ? '☑' : '☐'}  ${playlist.name} (${playlist.tracks.total})`)
-    console.log(yaml.dump([ album ]))
+    if (album) console.log(yaml.dump([ album ])) // dumps yaml to stdin
     return { playlist, album }
   })
 
