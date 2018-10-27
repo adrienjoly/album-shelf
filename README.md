@@ -10,6 +10,20 @@ It uses Jekyll to render the list in HTML from a YAML data file (see [`albums.ya
 
 If you want to have a similar page for your own album collection, feel free to fork this repository and replace my list of albums by yours!
 
+## Features
+
+### Add album from Spotify
+
+```
+$ npm run add:spotify-album >>_data/albums.yaml
+```
+
+### Extract albums from user's playlists on Spotify
+
+```
+$ npm run export:spotify-playlists >>_data/albums.yaml
+```
+
 ## How to publish my own collection?
 
 > Notice: In order to create and publish your collection, you need to have a Github account, to be familiar with `git` and with the use of the command line.

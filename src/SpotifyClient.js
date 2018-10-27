@@ -57,6 +57,10 @@ class SpotifyClient {
     const plId = RE_PL_URL.exec(url)[1]
     return this.spotifyApi.getPlaylistTracks(plId)
   }
+
+  async search ({ query, types }) {
+    return this.spotifyApi.search(query, types)
+  }
 }
 
 /**
