@@ -21,13 +21,13 @@ $ npm run add:spotify-album
 ### Add saved albums from the user's Spotify library
 
 ```
-$ npm run export:spotify-saved-abums >>_data/albums.yaml
+$ npm run add:spotify-saved-abums
 ```
 
 ### Add albums from the user's playlists on Spotify
 
 ```
-$ npm run export:spotify-playlists >>_data/albums.yaml
+$ npm run add:spotify-playlists
 ```
 
 ## How to publish my own collection?
