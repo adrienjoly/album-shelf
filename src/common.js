@@ -29,8 +29,11 @@ function askQuestion (query) {
   }))
 }
 
+/**
+ * Auth to spotify account => return spotify api client.
+ * This function may read and/or update .spotify-session.json.
+ */
 async function authToSpotify ({ scopes = DEFAULT_SCOPES } = {}) {
-  // auth to spotify account => get spotify api client
   const spotifyClient = await SpotifyClient.getSpotifyClientFromSessionFileIfPossible({
     scopes,
     clientId: process.env.SPOTIFY_CLIENT_ID || await askQuestion('Spotify client id: '),

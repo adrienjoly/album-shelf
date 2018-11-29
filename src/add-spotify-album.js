@@ -4,7 +4,7 @@ const common = require('./common')
 const renderArtists = (artists) => artists.map(artist => artist.name).join(', ')
 
 ;(async () => {
-  const spotify = await common.authToSpotify()
+  const spotify = await common.authToSpotify() // may read and/or update .spotify-session.json.
 
   // search album
   const query = process.argv[2] || await common.askQuestion('Name of album: ')

@@ -27,7 +27,7 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
 }
 
 ;(async () => {
-  const spotify = await common.authToSpotify()
+  const spotify = await common.authToSpotify() // may read and/or update .spotify-session.json.
 
   // fetch user's playlists
   const username = (await spotify.getMe()).id
