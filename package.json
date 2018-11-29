@@ -8,6 +8,7 @@
     "build": "bundle exec jekyll build",
     "start": "bundle exec jekyll serve # --incremental",
     "add:spotify-album": "node src/add-spotify-album.js >>_data/albums.yaml",
+    "export:spotify-saved-abums": "node src/export-from-spotify-saved-albums.js",
     "export:spotify-playlists": "node src/export-from-spotify-playlists.js"
   },
   "repository": {

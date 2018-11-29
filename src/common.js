@@ -8,7 +8,7 @@ const mapSeriesAsync = (items, asyncItemHandler) =>
   util.promisify(async.mapSeries)(items, asyncItemHandler)
 
 const DEFAULT_SCOPES = [
-  // 'user-library-read',
+  'user-library-read',
   'user-follow-read',
   'playlist-read-private',
   'playlist-read-collaborative'
@@ -16,7 +16,7 @@ const DEFAULT_SCOPES = [
 
 const dumpAlbumToStdout = ({ album }) => console.log(yaml.dump([{
   title: album.name,
-  artist: album.artistName,
+  artist: album.artistName || album.artists.map(artist => artist.name).join(', '),
   release_date: album.release_date,
   img: album.images[0].url,
   url: `https://open.spotify.com/album/${album.id}`
@@ -37,6 +37,8 @@ function askQuestion (query) {
 /**
  * Auth to spotify account => return spotify api client.
  * This function may read and/or update .spotify-session.json.
+ * Note: I had to register a Spotify app first
+ * (https://developer.spotify.com/documentation/general/guides/app-settings/)
  */
 async function authToSpotify ({ scopes = DEFAULT_SCOPES } = {}) {
   const spotifyClient = await SpotifyClient.getSpotifyClientFromSessionFileIfPossible({

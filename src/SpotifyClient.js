@@ -52,6 +52,22 @@ class SpotifyClient {
     return appendNextPlaylists({ offset: 0 })
   }
 
+  async countSavedAlbums ({ username }) {
+    const { body } = await this.spotifyApi.getMySavedAlbums()
+    return body.total
+  }
+
+  async loadAllSavedAlbums ({ username }) {
+    let albums = []
+    const limit = 50
+    const appendNextAlbums = async ({ offset }) => {
+      const { body } = await this.spotifyApi.getMySavedAlbums({ limit, offset })
+      albums = albums.concat(body.items)
+      return !body.next ? { albums } : appendNextAlbums({ offset: offset + limit })
+    }
+    return appendNextAlbums({ offset: 0 })
+  }
+
   async getPlaylistTracks ({ url }) {
     const RE_PL_URL = /https:\/\/api.spotify.com\/v1\/playlists\/([a-zA-Z0-9]+)\/tracks/
     const plId = RE_PL_URL.exec(url)[1]
