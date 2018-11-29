@@ -40,7 +40,7 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
   }
 }
 
-const dumpAlbumToStdin = ({ album }) => console.log(yaml.dump([{
+const dumpAlbumToStdout = ({ album }) => console.log(yaml.dump([{
   title: album.name,
   artist: album.artistName,
   release_date: album.release_date,
@@ -76,7 +76,7 @@ const dumpAlbumToStdin = ({ album }) => console.log(yaml.dump([{
     const { body } = await spotify.getPlaylistTracks({ url: playlist.tracks.href })
     const { album } = await detectAlbumFromTracks({ playlist, playlistTracks: body })
     console.warn(`   ${album ? '☑' : '☐'}  ${playlist.name} (${playlist.tracks.total})`)
-    if (album) dumpAlbumToStdin({ album })
+    if (album) dumpAlbumToStdout({ album })
     return { playlist, album }
   })
 
