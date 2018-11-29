@@ -42,7 +42,8 @@
   url: https://open.spotify.com/album/7MZVTvSgVy8YEzzFXejFO7
 
 - title: Sylva
-  artist: Snarky Puppy
+  artist: 'Snarky Puppy, Metropole Orkest'
+  release_date: '2015-04-20'
   tags: [ jazz, classical, instrumental ]
   img: https://i.scdn.co/image/fc309b32a1fe2267d0452c240a1b2f5aca55fa2f
   url: https://open.spotify.com/album/3YDZkr9mlzIMNId8YmQGHr
@@ -362,13 +363,22 @@
 
 - title: Life
   artist: KNOWER
+  tags: [ weird, crazy, energetic, funk, jazz ]
   release_date: '2016-02-05'
   img: 'https://i.scdn.co/image/f0c26d7d5df711222aa6de6d096ee633e0c3b6bc'
   url: 'https://open.spotify.com/album/4SVxz8yqIymDrdiX2YBeQe'
 
 - title: Mouvement
   artist: Mermonte
+  tags: [ post-rock, france, folk ]
   release_date: '2018-10-19'
   img: 'https://i.scdn.co/image/6533c1ceaa1e8bb784d7539753a94ee22ee90e50'
   url: 'https://open.spotify.com/album/6124Rccor7EWvAxYMf10JT'
+
+- title: Hot Fuss
+  artist: The Killers
+  tags: [ rock, pop ]
+  release_date: '2004'
+  img: 'https://i.scdn.co/image/ac68a9e4a867ec3ce8249cd90a2d7c73755fb487'
+  url: 'https://open.spotify.com/album/4OHNH3sDzIxnmUADXzv2kT'
 
