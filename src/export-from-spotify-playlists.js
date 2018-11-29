@@ -2,8 +2,6 @@
 // cf https://developer.spotify.com/documentation/general/guides/app-settings/
 
 require('dotenv').config() // load env vars from .env
-const util = require('util')
-const async = require('async')
 const common = require('./common')
 
 const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
@@ -37,7 +35,7 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
   let { playlists } = await spotify.loadAllPlaylists({ username })
 
   // exporting albums from playlists
-  const processedPlaylists = await util.promisify(async.mapSeries)(playlists, async playlist => {
+  const processedPlaylists = await common.mapSeriesAsync(playlists, async playlist => {
     const { body } = await spotify.getPlaylistTracks({ url: playlist.tracks.href })
     const { album } = await detectAlbumFromTracks({ playlist, playlistTracks: body })
     console.warn(`   ${album ? '☑' : '☐'}  ${playlist.name} (${playlist.tracks.total})`)

@@ -1,6 +1,11 @@
 const readline = require('readline')
 const yaml = require('js-yaml')
+const util = require('util')
+const async = require('async')
 const SpotifyClient = require('./SpotifyClient')
+
+const mapSeriesAsync = (items, asyncItemHandler) =>
+  util.promisify(async.mapSeries)(items, asyncItemHandler)
 
 const DEFAULT_SCOPES = [
   // 'user-library-read',
@@ -46,6 +51,7 @@ async function authToSpotify ({ scopes = DEFAULT_SCOPES } = {}) {
 }
 
 module.exports = {
+  mapSeriesAsync,
   dumpAlbumToStdout,
   askQuestion,
   authToSpotify
