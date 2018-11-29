@@ -12,13 +12,19 @@ If you want to have a similar page for your own album collection, feel free to f
 
 ## Features
 
-### Add album from Spotify
+### Search and add an album from Spotify
 
 ```
-$ npm run add:spotify-album >>_data/albums.yaml
+$ npm run add:spotify-album
 ```
 
-### Extract albums from user's playlists on Spotify
+### Add saved albums from the user's Spotify library
+
+```
+$ npm run export:spotify-saved-abums >>_data/albums.yaml
+```
+
+### Add albums from the user's playlists on Spotify
 
 ```
 $ npm run export:spotify-playlists >>_data/albums.yaml
