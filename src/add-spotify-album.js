@@ -17,7 +17,7 @@ function askQuestion (query) {
 
 const renderArtists = (artists) => artists.map(artist => artist.name).join(', ')
 
-const dumpAlbumToStdin = ({ album }) => console.log(yaml.dump([{
+const dumpAlbumToStdout = ({ album }) => console.log(yaml.dump([{
   title: album.name,
   artist: renderArtists(album.artists),
   release_date: album.release_date,
@@ -63,7 +63,8 @@ const dumpAlbumToStdin = ({ album }) => console.log(yaml.dump([{
 
   // generate YAML
   if (albums[number]) {
-    dumpAlbumToStdin({ album: albums[number] })
+    console.log() // print an empty line
+    dumpAlbumToStdout({ album: albums[number] })
     console.warn(`✅  Exported 1 album`)
   } else {
     console.warn(`ℹ️  No album was selected`)
