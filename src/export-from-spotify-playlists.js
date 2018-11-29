@@ -3,22 +3,8 @@
 
 require('dotenv').config() // load env vars from .env
 const util = require('util')
-const readline = require('readline')
-const yaml = require('js-yaml')
 const async = require('async')
-const SpotifyClient = require('./SpotifyClient')
-
-function askQuestion (query) {
-  // credits: https://stackoverflow.com/a/50890409/592254
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stderr
-  })
-  return new Promise(resolve => rl.question(query, ans => {
-    rl.close()
-    resolve(ans)
-  }))
-}
+const common = require('./common')
 
 const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
   const albumIds = playlistTracks.items.map(item => item.track.album.id)
@@ -40,29 +26,8 @@ const detectAlbumFromTracks = async ({ playlist, playlistTracks }) => {
   }
 }
 
-const dumpAlbumToStdout = ({ album }) => console.log(yaml.dump([{
-  title: album.name,
-  artist: album.artistName,
-  release_date: album.release_date,
-  img: album.images[0].url,
-  url: `https://open.spotify.com/album/${album.id}`
-}]))
-
 ;(async () => {
-  // auth to spotify account => get spotify api client
-  const spotifyClient = await SpotifyClient.getSpotifyClientFromSessionFileIfPossible({
-    scopes: [
-      'playlist-read-private',
-      'playlist-read-collaborative',
-      'user-follow-read'
-    ],
-    clientId: process.env.SPOTIFY_CLIENT_ID || await askQuestion('Spotify client id: '),
-    clientSecret: process.env.SPOTIFY_CLIENT_SECRET || await askQuestion('Spotify client secret: ')
-  })
-  if (spotifyClient && spotifyClient.accessToken) {
-    await SpotifyClient.saveSpotifySessionFile(spotifyClient)
-  }
-  const { spotify } = spotifyClient
+  const spotify = await common.authToSpotify()
 
   // fetch user's playlists
   const username = (await spotify.getMe()).id
@@ -76,7 +41,7 @@ const dumpAlbumToStdout = ({ album }) => console.log(yaml.dump([{
     const { body } = await spotify.getPlaylistTracks({ url: playlist.tracks.href })
     const { album } = await detectAlbumFromTracks({ playlist, playlistTracks: body })
     console.warn(`   ${album ? '☑' : '☐'}  ${playlist.name} (${playlist.tracks.total})`)
-    if (album) dumpAlbumToStdout({ album })
+    if (album) common.dumpAlbumToStdout({ album })
     return { playlist, album }
   })
 
