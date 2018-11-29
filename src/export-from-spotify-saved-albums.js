@@ -15,7 +15,7 @@ const common = require('./common')
   albums.forEach(entry => common.dumpAlbumToStdout({ album: entry.album }))
 
   console.warn()
-  console.warn(`✅  Done exporting ${albums.length} saved albums to stdin!`)
+  console.warn(`✅  Done exporting ${albums.length} saved albums to stdout!`)
   console.warn()
 
   // done.
