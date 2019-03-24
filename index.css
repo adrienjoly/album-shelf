@@ -2,6 +2,20 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #0091BE;
+}
+
+/* top image */
+
+.avatar {
+  float: right;
+  width: 42px;
+  border-radius: 6px;
+}
+
+/* albums list */
+
 article {
   display: inline-block;
   width: 320px;

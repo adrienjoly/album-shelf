@@ -1,5 +1,5 @@
 ---
-title: My Albums (ToDo)
+title: ToDo
 ---
 
 <!-- listed from _data/albums_todo.yaml -->
