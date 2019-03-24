@@ -15,6 +15,25 @@ repository: adrienjoly/album-shelf
 
 google_analytics: UA-1858235-4
 
+twitter: # used by the jekyll seo plugin
+  username: adrienjoly
+  card: summary
+
+social:
+  name: Adrien Joly
+  links:
+    - https://twitter.com/adrienjoly
+    - https://www.linkedin.com/in/adrienjoly
+    - https://github.com/adrienjoly
+    - https://medium.com/@adrienjoly
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/logo.png"
+      author: "@adrienjoly"
+
 # github defaults
 encoding: UTF-8
 kramdown:
@@ -30,3 +49,7 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
+  - src
+
+plugins:
+  - jekyll-seo-tag
