@@ -3,3 +3,4 @@ _site
 .env
 .spotify-session.json
 node_modules
+/samples
