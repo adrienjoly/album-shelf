@@ -382,41 +382,44 @@
   img: 'https://i.scdn.co/image/ac68a9e4a867ec3ce8249cd90a2d7c73755fb487'
   url: 'https://open.spotify.com/album/4OHNH3sDzIxnmUADXzv2kT'
 
-
 - title: Octave Museum
   artist: Stephen Brodsky
   release_date: '2011-09-06'
   img: 'https://i.scdn.co/image/77a37dbb517659e42c54149d01f9eebbe034a219'
   url: 'https://open.spotify.com/album/7dJenpWI1VeZmot1gDA2m7'
-
+  tags: [ indie, folk ]
 
 - title: Hyper Light Drifter
   artist: Disasterpeace
   release_date: '2016-04-13'
   img: 'https://i.scdn.co/image/f3d3c6f2031f024d83b18c6ed8f638b0a60525dc'
   url: 'https://open.spotify.com/album/358HhLekPvkg13A1dDPfhT'
-
+  tags: [ vgm, ambient, instrumental ]
 
 - title: The Egg
   artist: Shiner
   release_date: '2001-01-01'
   img: 'https://i.scdn.co/image/b0aed1b94ddbacdf8ff1893f320e93c1e9d8a981'
   url: 'https://open.spotify.com/album/6jj7jGCHZ7oCf5nqVt1PqP'
+  tags: [ rock, grunge, stoner ]
 
 - title: Psyence Fiction
   artist: UNKLE
   release_date: '1998-09-29'
   img: 'https://i.scdn.co/image/bda22f00742a1e5f174a4c67543d94363ece9032'
   url: 'https://open.spotify.com/album/6Dxx0vxLQ83LK1PMZezlcY'
+  tags: [ electronic, trip-hop, chill ]
 
 - title: Return Of Saturn
   artist: No Doubt
   release_date: '2000-01-01'
   img: 'https://i.scdn.co/image/0f7619f7ce16bad272ac6585525e37482ca5ce34'
   url: 'https://open.spotify.com/album/3UBfrm1LGAdOZflgsmCsM2'
+  tags: [ rock, ska, pop ]
 
 - title: Shiny Eyed Babies
   artist: Bent Knee
   release_date: '2014-11-11'
   img: 'https://i.scdn.co/image/45a9e6d248ded3ef3e50a01feb2974b097fcd773'
   url: 'https://open.spotify.com/album/1fzglmXGoCvEhA3MZNBwdf'
+  tags: [ math-rock, indie ]
