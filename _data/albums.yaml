@@ -423,3 +423,10 @@
   img: 'https://i.scdn.co/image/45a9e6d248ded3ef3e50a01feb2974b097fcd773'
   url: 'https://open.spotify.com/album/1fzglmXGoCvEhA3MZNBwdf'
   tags: [ math-rock, indie ]
+
+- title: Third Eye Blind
+  artist: Third Eye Blind
+  release_date: '1997-04-08'
+  img: 'https://i.scdn.co/image/53e089d368f4ffe69ac66ef7acd03cf273db9f23'
+  url: 'https://open.spotify.com/album/2gToC0XAblE9h3UZD6aAaQ'
+  tags: [ rock, pop, emo ]
