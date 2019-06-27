@@ -430,3 +430,19 @@
   img: 'https://i.scdn.co/image/53e089d368f4ffe69ac66ef7acd03cf273db9f23'
   url: 'https://open.spotify.com/album/2gToC0XAblE9h3UZD6aAaQ'
   tags: [ rock, pop, emo ]
+
+- title: Waves
+  artist: The New Wine
+  release_date: '2011-03-07'
+  img: 'https://i.scdn.co/image/ff5ceabc1cc9360c5bf1b3cb22a399294bbb3dd5'
+  url: 'https://open.spotify.com/album/0x0pW30d5CXpjmqBc0PjGE'
+  date_discovered: '2009'
+  tags: [ pop ]
+
+- title: Computer Savvy
+  artist: The J. Arthur Keenes Band
+  release_date: '2011-05-31'
+  img: 'https://i.scdn.co/image/873c6192d9669ed3aefed2fd37bc3fb636edbdcf'
+  url: 'https://open.spotify.com/album/0nlqiT43SYVsJuGNUxtPYn'
+  date_discovered: '2018'
+  tags: [ chiptune, pop ]
