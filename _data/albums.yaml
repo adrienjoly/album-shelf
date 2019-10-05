@@ -446,3 +446,24 @@
   url: 'https://open.spotify.com/album/0nlqiT43SYVsJuGNUxtPYn'
   date_discovered: '2018'
   tags: [ chiptune, pop ]
+
+- title: Una tarra ci hè
+  artist: A Filetta
+  release_date: '2014-06-30'
+  img: 'https://i.scdn.co/image/ab67616d0000b2733949d71f195cb6a81e6eb011'
+  url: 'https://open.spotify.com/album/20WEeGtlhUi7y0jFGcN0qL'
+  tags: [ folk ]
+
+- title: Abricotine
+  artist: Eiffel
+  release_date: '2001'
+  img: 'https://i.scdn.co/image/af0526868751c8f717ca43e17c3cd77c9b422200'
+  url: 'https://open.spotify.com/album/0cFsQJGTQmZ2bF8XBj0q3z'
+  tags: [ pop, rock ]
+
+- title: The Flame In the Eye - EP
+  artist: Myra Lee
+  release_date: '2011-04-11'
+  img: 'https://i.scdn.co/image/e1ee1b38e5af3826b656e78bb1d809810ddddd22'
+  url: 'https://open.spotify.com/album/3mXVsiWekItCNOlXEzTVVM'
+  tags: [ indie ]
