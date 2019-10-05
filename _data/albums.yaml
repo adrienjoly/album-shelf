@@ -467,3 +467,10 @@
   img: 'https://i.scdn.co/image/e1ee1b38e5af3826b656e78bb1d809810ddddd22'
   url: 'https://open.spotify.com/album/3mXVsiWekItCNOlXEzTVVM'
   tags: [ indie ]
+
+- title: Rise of the Obsidian Interstellar
+  artist: Disasterpeace
+  release_date: '2013-05-07'
+  img: 'https://i.scdn.co/image/ab67616d0000b273b1f40bad50ea0ac54aff57b3'
+  url: 'https://open.spotify.com/album/52XjGg0uwOJBEqYY1DhKsU'
+  tags: [ chiptune, instrumental, vgm ]
