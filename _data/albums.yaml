@@ -488,3 +488,17 @@
   img: 'https://i.scdn.co/image/ab67616d0000b2736a255ba224636717d534c7f3'
   url: 'https://open.spotify.com/album/4sR5la8mIK6mRE2uDVNEZI'
   tags: [ experimental, rock, electro ]
+
+- title: syrtis major
+  artist: syrtis major
+  release_date: '2015-01-25'
+  img: 'https://f4.bcbits.com/img/a4138880956_16.jpg'
+  url: 'https://syrtismajor.bandcamp.com/album/syrtis-major'
+  tags: [ post-rock, indie ]
+
+- title: Girouette
+  artist: General Bye Bye
+  release_date: '2010-05-19'
+  img: 'https://f4.bcbits.com/img/a3147359878_16.jpg'
+  url: 'https://generalbyebye.bandcamp.com/album/girouette'
+  tags: [ indie, pop ]
