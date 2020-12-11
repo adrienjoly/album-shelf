@@ -1,525 +1,418 @@
-# Reference documentation of the YAML format:
-# https://symfony.com/doc/current/components/yaml/yaml_format.html
-
-- title: Karabana
-  artist: Harissa
-  release_date: 2018-09-12
-  tags: [ jazz, instrumental ]
-  img: https://i.scdn.co/image/ec748d8a8fea1b8f644c753185cc35c4ca9f45da
-  url: https://open.spotify.com/album/0EX4lJA3CFaKIvjFJyYIpe
-  notes: |
-    Instrumental jazz/klezmer/groove from Paris, France.
-    I played drums on this record.
-
-- title: Survived the great flood
-  artist: Man is not a bird
-  release_date: 2015-03-26
-  tags: [ rock, post-rock, instrumental ]
-  img: https://i.scdn.co/image/db6fd040573e9439e2ed01f002b7227c607438a7
-  url: https://open.spotify.com/album/5acWZQPiULxgupTkAIdWbw
-  notes: |
-    Instrumental power post-rock from Paris, France.
-    I played drums on this record.
-
-- title: Blood Sugar Sex Magik
-  artist: Red Hot Chili Peppers
-  release_date: '1991-09-24'
-  tags: [ rock, funk ]
-  img: https://i.scdn.co/image/5a6a1c6514398dc4004c6348a83d77694a3883d4
-  url: https://open.spotify.com/album/30Perjew8HyGkdSmqguYyg
-
-- title: You come before you
-  artist: Poison the well
-  tags: [ post-hardcore ]
-  img: https://i.scdn.co/image/d7391686a3be76859c5b573d7585284f536c00b0
-  url: https://open.spotify.com/album/1jWoSWzUjyq2v2jnmRv3p8
-
-- title: American Football
-  artist: American Football
-  release_date: '2014-05-16'
-  tags: [ post-rock, indie-rock ]
-  img: https://i.scdn.co/image/34348c73bd5322bd0a2c2df4839d8f0dba81a73c
-  url: https://open.spotify.com/album/7MZVTvSgVy8YEzzFXejFO7
-
-- title: Sylva
-  artist: 'Snarky Puppy, Metropole Orkest'
-  release_date: '2015-04-20'
-  tags: [ jazz, classical, instrumental ]
-  img: https://i.scdn.co/image/fc309b32a1fe2267d0452c240a1b2f5aca55fa2f
-  url: https://open.spotify.com/album/3YDZkr9mlzIMNId8YmQGHr
-
-- title: Domino
-  artist: Dan San
-  release_date: '2012-01-30'
-  tags: [ folk, choir, belgium ]
-  img: 'https://i.scdn.co/image/3cae1e358e879e01885e7afefb0f7067cfcd01ff'
-  url: 'https://open.spotify.com/album/0CwE2j27CTZgHG3678Sj5T'
-
-- title: The Instinct
-  artist: Denali
-  release_date: '2003-10-28'
-  tags: [ emo, female ]
-  img: 'https://i.scdn.co/image/0fe5994fd547f4666796f14b20a207336ed5e831'
-  url: 'https://open.spotify.com/album/4iAvomPnlOW9HnbKw4VCwM'
-
-- title: Denali
-  artist: Denali
-  release_date: '2002-04-16'
-  tags: [ emo, female ]
-  img: 'https://i.scdn.co/image/b80d5398e1376e2c356fbf54b03b445b518ad678'
-  url: 'https://open.spotify.com/album/1dTa8wSOklmcSNBGrMQWqn'
-
-- title: Close To The Edge (Deluxe Version)
-  artist: 'Yes'
-  release_date: '1972-09-13'
-  tags: [ prog-rock, vintage ]
-  img: 'https://i.scdn.co/image/073173d0302f201489fe8ead384bc85dcabb815a'
-  url: 'https://open.spotify.com/album/6344rkGqCBDenGoS7eJlBN'
-
-- title: Última noticia
-  artist: 'Yissy García, Bandancha'
-  release_date: '2015'
-  tags: [ jazz, latin ]
-  img: 'https://i.scdn.co/image/596a022d6ae47b38fa266f30ff968b660182cdfc'
-  url: 'https://open.spotify.com/album/3W8FqrBrX4nYlzCiKi1NW9'
-
-- title: Mother's Milk
-  artist: Red Hot Chili Peppers
-  release_date: '1989-08-16'
-  tags: [ rock, funk, vintage ]
-  img: 'https://i.scdn.co/image/5e553d65e84fde60e3293ce2138a52e5f5b3ec10'
-  url: 'https://open.spotify.com/album/1oOkcBu5bgkUzZTvKD1m8z'
-
-- title: The Uplift Mofo Party Plan
-  artist: Red Hot Chili Peppers
-  release_date: '1987'
-  tags: [ rock, funk, vintage ]
-  img: 'https://i.scdn.co/image/84bf42bcc130f847d44e5651f0bddd60f3152981'
-  url: 'https://open.spotify.com/album/6hBlJsSIz4bgjEHjwcLlZ3'
-
-- title: Freaky Styley
-  artist: Red Hot Chili Peppers
-  release_date: '1985-08-16'
-  tags: [ rock, funk, vintage ]
-  img: 'https://i.scdn.co/image/70eedbb4441396ba0aeb016379b8addf74761437'
-  url: 'https://open.spotify.com/album/10Oqhoq2akSJnurJOPk8xT'
-
-- title: Stereolithic
-  artist: '311'
-  release_date: '2014-03-11'
-  tags: [ rock, funk, energy ]
-  img: 'https://i.scdn.co/image/de9fcb6d1af46d3d761a825a101b57540df92fd2'
-  url: 'https://open.spotify.com/album/6grw0BU5NwvuvMmoxMAlaO'
-
-- title: In Rainbows
-  artist: Radiohead
-  release_date: '2007-12-28'
-  tags: [ rock, complex ]
-  img: 'https://i.scdn.co/image/00d97c99f9fb5872e9a44f06ae7e20fd011de125'
-  url: 'https://open.spotify.com/album/7eyQXxuf2nGj9d2367Gi5f'
-
-- title: Promise Everything (Deluxe)
-  artist: Basement
-  release_date: '2017-03-03'
-  tags: [ rock, emo, energy ]
-  img: 'https://i.scdn.co/image/2a2358ec7b840131992c6d83fd5844f641d119a7'
-  url: 'https://open.spotify.com/album/2Ic7SVaZu6loRXczS4VfYP'
-
-- title: Silent Witness
-  artist: Overhead
-  release_date: '2002'
-  tags: [ jazz, rock, complex, weed ]
-  img: 'https://i.scdn.co/image/376648ec5ea122d16959eea49fee0c11d72d0dc8'
-  url: 'https://open.spotify.com/album/1M0SVLGbi6SfnmYqj9qUAg'
-
-- title: Heavy Meddlers
-  artist: Father Figure
-  release_date: '2014-09-26'
-  tags: [ prog-rock, math-rock, complex ]
-  img: 'https://i.scdn.co/image/43b01623180240496c25ad83448803f4d558c091'
-  url: 'https://open.spotify.com/album/1O2M4SZ34IV21FLTFikI3c'
-
-- title: Frames
-  artist: Oceansize
-  release_date: '2013-03-05'
-  tags: [ prog-rock, math-rock, complex ]
-  img: 'https://i.scdn.co/image/4af58e48f6de312cd0b3b3a8beecf1a75ed5c0b8'
-  url: 'https://open.spotify.com/album/5lsYxQgeDven09644Fs97m'
-
-- title: The Phosphorescent Blues
-  artist: Punch Brothers
-  release_date: '2015-01-23'
-  tags: [ folk, weed ]
-  img: 'https://i.scdn.co/image/c0b93a28c335c0158b4c44e70594f8206c33d9e8'
-  url: 'https://open.spotify.com/album/3cdqpjwuTvDeLe3RYIGb0j'
-
-- title: Demure
-  artist: Engine Down
-  release_date: '2002-04-01'
-  tags: [ emo, rock ]
-  img: 'https://i.scdn.co/image/04142f77b40680c626503f3c4b5cfb2a9c3344d0'
-  url: 'https://open.spotify.com/album/0tQYFiRlfKm5Cav5tzzVqG'
-
-- title: Antenna
-  artist: Cave In
-  release_date: '2003-02-24'
-  tags: [ emo, rock, space-rock ]
-  img: 'https://i.scdn.co/image/43b2ce36af2d008ea6d67516b71e9bfdef35602c'
-  url: 'https://open.spotify.com/album/4xJntSIrIWIbGurovNQbTh'
-
-- title: Magnified
-  artist: Failure
-  release_date: '2005'
-  tags: [ emo, rock, space-rock ]
-  img: 'https://i.scdn.co/image/2599ff4c8e98e330935b44e97e727ad28958327f'
-  url: 'https://open.spotify.com/album/4O0LosfrwDyFz8U3gJOWSf'
-
-- title: Science Fiction
-  artist: Brand New
-  release_date: '2017-08-18'
-  tags: [ dj, trip-hop, weed ]
-  img: 'https://i.scdn.co/image/6b05b76a0d375c00c2f124351e8af46fe36c605d'
-  url: 'https://open.spotify.com/album/37Rzq4SAqeFWLZWL0ScrcC'
-
-- title: 'Thunder, Lightning, Strike'
-  artist: The Go! Team
-  release_date: '2004-10-02'
-  tags: [ energy, break-beat, rap ]
-  img: 'https://i.scdn.co/image/a7e48eedacfdd364d8c9124643f66b0e92b95c03'
-  url: 'https://open.spotify.com/album/0gEMKvij1A59fVQQ7A7bor'
-
-- title: Are We There
-  artist: Sharon Van Etten
-  release_date: '2014-05-27'
-  tags: [ rock, folk, dark, weed ]
-  img: 'https://i.scdn.co/image/3e30b9d97b322f7cf7d9c295c530a78a072ff973'
-  url: 'https://open.spotify.com/album/0F1pMhF8Vy74nKkQeLBfrd'
-
-- title: This Time
-  artist: James & Black
-  release_date: '2017-07-12'
-  tags: [ blues, jazz, soul ]
-  img: 'https://i.scdn.co/image/22495622532415e71fa8909d73a7fc6b6f7f87dd'
-  url: 'https://open.spotify.com/album/6NOyh86Dq30O2QA6N5MChR'
-
-- title: Afrodeezia
-  artist: Marcus Miller
-  release_date: '2015-03-02'
-  tags: [ jazz, world ]
-  img: 'https://i.scdn.co/image/206b9f9c945f13054aa36f2da9e5cc64a55bca15'
-  url: 'https://open.spotify.com/album/67Sb6f1dsjHZXnBr3R5IDP'
-
-- title: La transe des oiseaux
-  artist: Le Vasco
-  release_date: '2016'
-  tags: [ trip-hop, hip-hop, france ]
-  img: 'https://i.scdn.co/image/23c1c31c8eaef57e953fe1521a45f12aafba35d2'
-  url: 'https://open.spotify.com/album/7EaTftlyw0WFpJI0cuEZqT'
-
-- title: Colourmeinkindness
-  artist: Basement
-  release_date: '2012-10-23'
-  tags: [ rock, emo, energy ]
-  img: 'https://i.scdn.co/image/2433b0521c86833ceb29770c8ba5785cccfec954'
-  url: 'https://open.spotify.com/album/70yn72rS28G1jieaBHlZhY'
-
-- title: Restlessness
-  artist: Man Is Not a Bird
-  release_date: '2012-11-12'
-  tags: [ instrumental, post-rock, math-rock ]
-  img: 'https://i.scdn.co/image/4947f6b88cf9f42606488d9c8430e6ad7d37d3cc'
-  url: 'https://open.spotify.com/album/38Bxx6rQBsagbArp36RqEM'
-
-- title: Hisaishi Meets Miyazaki Films
-  artist: Joe Hisaishi
-  release_date: '1997'
-  tags: [ classical, ost, poetry, introspective, instrumental ]
-  img: 'https://i.scdn.co/image/dc604b25adcb92118603f85f1393b0ccb752569d'
-  url: 'https://open.spotify.com/album/1CUj4bfDadfeQE6MBkDili'
-
-- title: Cleanhead EP
-  artist: Oceana
-  release_date: '2010-05-10'
-  tags: [ emo, post-rock, math-rock, introspective ]
-  img: 'https://i.scdn.co/image/f655536e722c1083955dfa56203b7db3874f556e'
-  url: 'https://open.spotify.com/album/6sUKYFZet57qfn9IlOCk5Y'
-
-- title: Simplicity
-  artist: Curtiss
-  release_date: '2005-10-01'
-  tags: [ emo, rock, introspective ]
-  img: 'https://i.scdn.co/image/e1a2e7cfdc1c386b560a132043b04518ffec53fd'
-  url: 'https://open.spotify.com/album/4cgXduilLVjNuIMBIbUUIN'
-
-- title: 'Ghost Days [New Edition]'
-  artist: Syd Matters
-  release_date: '2008-08-22'
-  tags: [ folk, introspective ]
-  img: 'https://i.scdn.co/image/8fe13589f527ba43e2d2ab351950920bec9b9e8d'
-  url: 'https://open.spotify.com/album/6FUbegmhKrMRmq1qk9OkbG'
-
-- title: An Awesome Wave
-  artist: alt-J
-  release_date: '2012-05-28'
-  tags: [ folk, introspective, popular, trip-hop ]
-  img: 'https://i.scdn.co/image/3d0d4e13e80545a24977e6aed728c4b43760b194'
-  url: 'https://open.spotify.com/album/7HOzvP7Ta2lLueojdlJtdZ'
-
-- title: 'Distant Worlds: music from Final Fantasy'
-  artist: Nobuo Uematsu
-  release_date: '2007-12-04'
-  tags: [ classical, ost, instrumental ]
-  img: 'https://i.scdn.co/image/46ab300fa7bb81a8bd60a079c22d5c14fad3ce3d'
-  url: 'https://open.spotify.com/album/51MXEvD96cIH8oOhWanzW3'
-
-- title: Orbits
-  artist: Starkey
-  release_date: '2012-11-26'
-  tags: [ dark, electronic, trap, instrumental, urban ]
-  img: 'https://i.scdn.co/image/f13c89b82eacde86535182ab8893869b10cafb5b'
-  url: 'https://open.spotify.com/album/3BvQfIHiCdsJhkB6RjPZsL'
-
-- title: Crime Of The Century (Remastered)
-  artist: Supertramp
-  release_date: '1974-09-01'
-  tags: [ vintage, rock, popular ]
-  img: 'https://i.scdn.co/image/600009f307d3ceb167713ca4b2672ec525aed7ba'
-  url: 'https://open.spotify.com/album/3Fv4TJQ9iQ0DCLHv02122Z'
-
-- title: Pet Genius
-  artist: Pet Genius
-  release_date: '2007'
-  tags: [ folk, rock, prog-rock ]
-  img: 'https://i.scdn.co/image/7ee0aa9c58e8b9f018b8e0542608e8467739adfc'
-  url: 'https://open.spotify.com/album/1YIyigEfa0xAUcgNUnXrXr'
-
-- title: Sky Eats Airplane
-  artist: Sky Eats Airplane
-  release_date: '2008-08-05'
-  tags: [ post-hardcore, metalcore, math-rock, complex, nitendocore ]
-  img: 'https://i.scdn.co/image/b36ce48fee0bfb76065049be5fa6a1abe92a2cc5'
-  url: 'https://open.spotify.com/album/4RbrNUOYSLqFk4iLj4XOup'
-
-- title: Weatherhead
-  artist: Helms Alee
-  release_date: '2011-08-23'
-  tags: [ dark, post-hardcore, post-rock, complex ]
-  img: 'https://i.scdn.co/image/4f3545ac7e8d9e1f98345063bc5d243fbc315ab0'
-  url: 'https://open.spotify.com/album/3FbDywNXHWkgt7lCAYuyNA'
-
-- title: Light Bearer
-  artist: '&u&i'
-  release_date: '2011-10-07'
-  tags: [ emo, post-hardcore, rock, complex, energy ]
-  img: 'https://i.scdn.co/image/e61afa2c0ab030eac823a7231376ff65cdf02b5b'
-  url: 'https://open.spotify.com/album/6ADUtTlNjDWxAI7VBtu2SF'
-
-- title: Controller
-  artist: Misery Signals
-  release_date: '2008'
-  tags: [ post-hardcore, emo, metalcore, complex, power ]
-  img: 'https://i.scdn.co/image/94aa3e557cba0b159ad208c4eee9d51fb946a4b1'
-  url: 'https://open.spotify.com/album/48QUEWlstIprnOzPkLeBa8'
-
-- title: Into The Valley Of Death
-  artist: Death By Stereo
-  release_date: '2004-10-01'
-  tags: [ post-hardcore, emo, energy ]
-  img: 'https://i.scdn.co/image/f18e27e196356c0d1744af64ad81a344eae382a8'
-  url: 'https://open.spotify.com/album/2rBYvtzGKWmm6qkR7wmVoz'
-
-- title: Messengers
-  artist: August Burns Red
-  release_date: '2007'
-  tags: [ post-hardcore, metalcore, complex, emo ]
-  img: 'https://i.scdn.co/image/7c446d4a6404695397f7e9f5a2047b6a99c1d73f'
-  url: 'https://open.spotify.com/album/16IJpaLM33ISHUuJdJwCYT'
-
-- title: The Tide
-  artist: Oceana
-  release_date: '2008-03-04'
-  tags: [ post-hardcore, metalcore, complex, emo ]
-  img: 'https://i.scdn.co/image/185b4d99728c27aaafea8de4f45c5454014039b5'
-  url: 'https://open.spotify.com/album/4bH4rLc8rKL5PpTctUsfYK'
-
-- title: The Opposite Of December / Tear From The Red
-  artist: Poison The Well
-  release_date: '2012-11-19'
-  tags: [ post-hardcore, metalcore, complex, emo ]
-  img: 'https://i.scdn.co/image/948c974e81b46b514ce2dac1eb41a0deb0c2d3c5'
-  url: 'https://open.spotify.com/album/6a29de1cUHKgnExT3wgu8y'
-
-- title: Puzzle
-  artist: Biffy Clyro
-  tags: [ rock ]
-  img: 'https://i.scdn.co/image/270ea93b38db345cdbc803ea2dad6df83b046798'
-  url: 'https://open.spotify.com/album/36wvWeOb3n3GBiftCQWuse'
-
-- title: Moderne Incidental
-  artist: Neimo
-  tags: [ rock, france ]
-  img: 'https://i.scdn.co/image/b762eaf7359e6044dc15051d619b2be69fad4a02'
-  url: 'https://open.spotify.com/album/5io2Upg0pyZo4OwhTK6uN1'
-
-- title: Life
-  artist: KNOWER
-  tags: [ weird, crazy, energetic, funk, jazz ]
-  release_date: '2016-02-05'
-  img: 'https://i.scdn.co/image/f0c26d7d5df711222aa6de6d096ee633e0c3b6bc'
-  url: 'https://open.spotify.com/album/4SVxz8yqIymDrdiX2YBeQe'
-
-- title: Mouvement
-  artist: Mermonte
-  tags: [ post-rock, france, folk ]
-  release_date: '2018-10-19'
-  img: 'https://i.scdn.co/image/6533c1ceaa1e8bb784d7539753a94ee22ee90e50'
-  url: 'https://open.spotify.com/album/6124Rccor7EWvAxYMf10JT'
-
-- title: Hot Fuss
-  artist: The Killers
-  tags: [ rock, pop ]
-  release_date: '2004'
-  img: 'https://i.scdn.co/image/ac68a9e4a867ec3ce8249cd90a2d7c73755fb487'
-  url: 'https://open.spotify.com/album/4OHNH3sDzIxnmUADXzv2kT'
-
-- title: Octave Museum
-  artist: Stephen Brodsky
-  release_date: '2011-09-06'
-  img: 'https://i.scdn.co/image/77a37dbb517659e42c54149d01f9eebbe034a219'
-  url: 'https://open.spotify.com/album/7dJenpWI1VeZmot1gDA2m7'
-  tags: [ indie, folk ]
-
-- title: Hyper Light Drifter
-  artist: Disasterpeace
-  release_date: '2016-04-13'
-  img: 'https://i.scdn.co/image/f3d3c6f2031f024d83b18c6ed8f638b0a60525dc'
-  url: 'https://open.spotify.com/album/358HhLekPvkg13A1dDPfhT'
-  tags: [ vgm, ambient, instrumental ]
-
-- title: The Egg
-  artist: Shiner
-  release_date: '2001-01-01'
-  img: 'https://i.scdn.co/image/b0aed1b94ddbacdf8ff1893f320e93c1e9d8a981'
-  url: 'https://open.spotify.com/album/6jj7jGCHZ7oCf5nqVt1PqP'
-  tags: [ rock, grunge, stoner ]
-
-- title: Psyence Fiction
-  artist: UNKLE
-  release_date: '1998-09-29'
-  img: 'https://i.scdn.co/image/bda22f00742a1e5f174a4c67543d94363ece9032'
-  url: 'https://open.spotify.com/album/6Dxx0vxLQ83LK1PMZezlcY'
-  tags: [ electronic, trip-hop, chill ]
-
-- title: Return Of Saturn
-  artist: No Doubt
-  release_date: '2000-01-01'
-  img: 'https://i.scdn.co/image/0f7619f7ce16bad272ac6585525e37482ca5ce34'
-  url: 'https://open.spotify.com/album/3UBfrm1LGAdOZflgsmCsM2'
-  tags: [ rock, ska, pop ]
-
-- title: Shiny Eyed Babies
-  artist: Bent Knee
-  release_date: '2014-11-11'
-  img: 'https://i.scdn.co/image/45a9e6d248ded3ef3e50a01feb2974b097fcd773'
-  url: 'https://open.spotify.com/album/1fzglmXGoCvEhA3MZNBwdf'
-  tags: [ math-rock, indie ]
-
-- title: Third Eye Blind
-  artist: Third Eye Blind
-  release_date: '1997-04-08'
-  img: 'https://i.scdn.co/image/53e089d368f4ffe69ac66ef7acd03cf273db9f23'
-  url: 'https://open.spotify.com/album/2gToC0XAblE9h3UZD6aAaQ'
-  tags: [ rock, pop, emo ]
-
-- title: Waves
-  artist: The New Wine
-  release_date: '2011-03-07'
-  img: 'https://i.scdn.co/image/ff5ceabc1cc9360c5bf1b3cb22a399294bbb3dd5'
-  url: 'https://open.spotify.com/album/0x0pW30d5CXpjmqBc0PjGE'
-  date_discovered: '2009'
-  tags: [ pop ]
-
-- title: Computer Savvy
-  artist: The J. Arthur Keenes Band
-  release_date: '2011-05-31'
-  img: 'https://i.scdn.co/image/873c6192d9669ed3aefed2fd37bc3fb636edbdcf'
-  url: 'https://open.spotify.com/album/0nlqiT43SYVsJuGNUxtPYn'
-  date_discovered: '2018'
-  tags: [ chiptune, pop ]
-
-- title: Una tarra ci hè
-  artist: A Filetta
-  release_date: '2014-06-30'
-  img: 'https://i.scdn.co/image/ab67616d0000b2733949d71f195cb6a81e6eb011'
-  url: 'https://open.spotify.com/album/20WEeGtlhUi7y0jFGcN0qL'
-  tags: [ folk ]
-
-- title: Abricotine
-  artist: Eiffel
-  release_date: '2001'
-  img: 'https://i.scdn.co/image/af0526868751c8f717ca43e17c3cd77c9b422200'
-  url: 'https://open.spotify.com/album/0cFsQJGTQmZ2bF8XBj0q3z'
-  tags: [ pop, rock ]
-
-- title: The Flame In the Eye - EP
-  artist: Myra Lee
-  release_date: '2011-04-11'
-  img: 'https://i.scdn.co/image/e1ee1b38e5af3826b656e78bb1d809810ddddd22'
-  url: 'https://open.spotify.com/album/3mXVsiWekItCNOlXEzTVVM'
-  tags: [ indie ]
-
-- title: Rise of the Obsidian Interstellar
-  artist: Disasterpeace
-  release_date: '2013-05-07'
-  img: 'https://i.scdn.co/image/ab67616d0000b273b1f40bad50ea0ac54aff57b3'
-  url: 'https://open.spotify.com/album/52XjGg0uwOJBEqYY1DhKsU'
-  tags: [ chiptune, instrumental, vgm ]
-
-- title: Much Against Everyone's Advice
-  artist: Soulwax
-  release_date: '1999'
-  img: 'https://i.scdn.co/image/ab67616d0000b273ae5ffb0ac4f068ff35413fe0'
-  url: 'https://open.spotify.com/album/7dElnBqnQCvAFa2PzAAwjQ'
-  tags: [ pop, rock, electro ]
-
-- title: Church With No Magic
-  artist: PVT
-  release_date: '2010-08-09'
-  img: 'https://i.scdn.co/image/ab67616d0000b2736a255ba224636717d534c7f3'
-  url: 'https://open.spotify.com/album/4sR5la8mIK6mRE2uDVNEZI'
-  tags: [ experimental, rock, electro ]
-
-- title: syrtis major
-  artist: syrtis major
-  release_date: '2015-01-25'
-  img: 'https://f4.bcbits.com/img/a4138880956_16.jpg'
-  url: 'https://syrtismajor.bandcamp.com/album/syrtis-major'
-  tags: [ post-rock, indie ]
-
-- title: Girouette
-  artist: General Bye Bye
-  release_date: '2010-05-19'
-  img: 'https://f4.bcbits.com/img/a3147359878_16.jpg'
-  url: 'https://generalbyebye.bandcamp.com/album/girouette'
-  tags: [ indie, pop ]
-
-- title: Congratulations
-  artist: MGMT
-  release_date: '2011-01-10'
-  img: 'https://i.scdn.co/image/ab67616d0000b273a2d9afea1e360c5776d4fd1f'
-  url: 'https://open.spotify.com/album/29j2xVL8lSCpKDUe4o2Iul'
-  tags: [ psychedelic, rock, pop ]
-
-- title: 'Chrono Trigger Symphony, Vol. 1'
-  artist: The Blake Robinson Synthetic Orchestra
-  release_date: '2013-08-22'
-  img: 'https://i.scdn.co/image/ab67616d0000b273b1c7fc7864a782cfca69f088'
-  url: 'https://open.spotify.com/album/316zwO6A5dj3FwrI4IgXJK'
-  tags: [ vgm, orchestral ]
-
-- title: 'Super Metroid Symphony'
-  artist: The Blake Robinson Synthetic Orchestra
-  release_date: '2013-03-19'
-  img: 'https://i1.sndcdn.com/artworks-000041173593-towxm0-t500x500.jpg'
-  url: 'https://soundcloud.com/blaketothefuture/sets/super-metroid-symphony'
-  tags: [ vgm, orchestral ]
+IyBSZWZlcmVuY2UgZG9jdW1lbnRhdGlvbiBvZiB0aGUgWUFNTCBmb3JtYXQ6
+CiMgaHR0cHM6Ly9zeW1mb255LmNvbS9kb2MvY3VycmVudC9jb21wb25lbnRz
+L3lhbWwveWFtbF9mb3JtYXQuaHRtbAoKLSB0aXRsZTogS2FyYWJhbmEKICBh
+cnRpc3Q6IEhhcmlzc2EKICByZWxlYXNlX2RhdGU6IDIwMTgtMDktMTIKICB0
+YWdzOiBbIGphenosIGluc3RydW1lbnRhbCBdCiAgaW1nOiBodHRwczovL2ku
+c2Nkbi5jby9pbWFnZS9lYzc0OGQ4YThmZWExYjhmNjQ0Yzc1MzE4NWNjMzVj
+NGNhOWY0NWRhCiAgdXJsOiBodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxi
+dW0vMEVYNGxKQTNDRmFLSXZqRkp5WUlwZQogIG5vdGVzOiB8CiAgICBJbnN0
+cnVtZW50YWwgamF6ei9rbGV6bWVyL2dyb292ZSBmcm9tIFBhcmlzLCBGcmFu
+Y2UuCiAgICBJIHBsYXllZCBkcnVtcyBvbiB0aGlzIHJlY29yZC4KCi0gdGl0
+bGU6IFN1cnZpdmVkIHRoZSBncmVhdCBmbG9vZAogIGFydGlzdDogTWFuIGlz
+IG5vdCBhIGJpcmQKICByZWxlYXNlX2RhdGU6IDIwMTUtMDMtMjYKICB0YWdz
+OiBbIHJvY2ssIHBvc3Qtcm9jaywgaW5zdHJ1bWVudGFsIF0KICBpbWc6IGh0
+dHBzOi8vaS5zY2RuLmNvL2ltYWdlL2RiNmZkMDQwNTczZTk0MzllMmVkMDFm
+MDAyYjcyMjdjNjA3NDM4YTcKICB1cmw6IGh0dHBzOi8vb3Blbi5zcG90aWZ5
+LmNvbS9hbGJ1bS81YWNXWlFQaVVMeGd1cFRrQUlkV2J3CiAgbm90ZXM6IHwK
+ICAgIEluc3RydW1lbnRhbCBwb3dlciBwb3N0LXJvY2sgZnJvbSBQYXJpcywg
+RnJhbmNlLgogICAgSSBwbGF5ZWQgZHJ1bXMgb24gdGhpcyByZWNvcmQuCgot
+IHRpdGxlOiBCbG9vZCBTdWdhciBTZXggTWFnaWsKICBhcnRpc3Q6IFJlZCBI
+b3QgQ2hpbGkgUGVwcGVycwogIHJlbGVhc2VfZGF0ZTogJzE5OTEtMDktMjQn
+CiAgdGFnczogWyByb2NrLCBmdW5rIF0KICBpbWc6IGh0dHBzOi8vaS5zY2Ru
+LmNvL2ltYWdlLzVhNmExYzY1MTQzOThkYzQwMDRjNjM0OGE4M2Q3NzY5NGEz
+ODgzZDQKICB1cmw6IGh0dHBzOi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS8z
+MFBlcmpldzhIeUdrZFNtcWd1WXlnCgotIHRpdGxlOiBZb3UgY29tZSBiZWZv
+cmUgeW91CiAgYXJ0aXN0OiBQb2lzb24gdGhlIHdlbGwKICB0YWdzOiBbIHBv
+c3QtaGFyZGNvcmUgXQogIGltZzogaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2Uv
+ZDczOTE2ODZhM2JlNzY4NTljNWI1NzNkNzU4NTI4NGY1MzZjMDBiMAogIHVy
+bDogaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzFqV29TV3pVanlx
+MnYyam5tUnYzcDgKCi0gdGl0bGU6IEFtZXJpY2FuIEZvb3RiYWxsCiAgYXJ0
+aXN0OiBBbWVyaWNhbiBGb290YmFsbAogIHJlbGVhc2VfZGF0ZTogJzIwMTQt
+MDUtMTYnCiAgdGFnczogWyBwb3N0LXJvY2ssIGluZGllLXJvY2sgXQogIGlt
+ZzogaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvMzQzNDhjNzNiZDUzMjJiZDBh
+MmMyZGY0ODM5ZDhmMGRiYTgxYTczYwogIHVybDogaHR0cHM6Ly9vcGVuLnNw
+b3RpZnkuY29tL2FsYnVtLzdNWlZUdlNnVnk4WUV6ekZYZWpGTzcKCi0gdGl0
+bGU6IFN5bHZhCiAgYXJ0aXN0OiAnU25hcmt5IFB1cHB5LCBNZXRyb3BvbGUg
+T3JrZXN0JwogIHJlbGVhc2VfZGF0ZTogJzIwMTUtMDQtMjAnCiAgdGFnczog
+WyBqYXp6LCBjbGFzc2ljYWwsIGluc3RydW1lbnRhbCBdCiAgaW1nOiBodHRw
+czovL2kuc2Nkbi5jby9pbWFnZS9mYzMwOWIzMmExZmUyMjY3ZDA0NTJjMjQw
+YTFiMmY1YWNhNTVmYTJmCiAgdXJsOiBodHRwczovL29wZW4uc3BvdGlmeS5j
+b20vYWxidW0vM1lEWmtyOW1seklNTklkOFltUUdIcgoKLSB0aXRsZTogRG9t
+aW5vCiAgYXJ0aXN0OiBEYW4gU2FuCiAgcmVsZWFzZV9kYXRlOiAnMjAxMi0w
+MS0zMCcKICB0YWdzOiBbIGZvbGssIGNob2lyLCBiZWxnaXVtIF0KICBpbWc6
+ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS8zY2FlMWUzNThlODc5ZTAxODg1
+ZTdhZmVmYjBmNzA2N2NmY2QwMWZmJwogIHVybDogJ2h0dHBzOi8vb3Blbi5z
+cG90aWZ5LmNvbS9hbGJ1bS8wQ3dFMmoyN0NUWmdIRzM2NzhTajVUJwoKLSB0
+aXRsZTogVGhlIEluc3RpbmN0CiAgYXJ0aXN0OiBEZW5hbGkKICByZWxlYXNl
+X2RhdGU6ICcyMDAzLTEwLTI4JwogIHRhZ3M6IFsgZW1vLCBmZW1hbGUgXQog
+IGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzBmZTU5OTRmZDU0N2Y0
+NjY2Nzk2ZjE0YjIwYTIwNzMzNmVkNWU4MzEnCiAgdXJsOiAnaHR0cHM6Ly9v
+cGVuLnNwb3RpZnkuY29tL2FsYnVtLzRpQXZvbVBubE9XOUhuYkt3NFZDd00n
+CgotIHRpdGxlOiBEZW5hbGkKICBhcnRpc3Q6IERlbmFsaQogIHJlbGVhc2Vf
+ZGF0ZTogJzIwMDItMDQtMTYnCiAgdGFnczogWyBlbW8sIGZlbWFsZSBdCiAg
+aW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvYjgwZDUzOThlMTM3NmUy
+YzM1NmZiZjU0YjAzYjQ0NWI1MThhZDY3OCcKICB1cmw6ICdodHRwczovL29w
+ZW4uc3BvdGlmeS5jb20vYWxidW0vMWRUYTh3U09rbG1jU05CR3JNUVdxbicK
+Ci0gdGl0bGU6IENsb3NlIFRvIFRoZSBFZGdlIChEZWx1eGUgVmVyc2lvbikK
+ICBhcnRpc3Q6ICdZZXMnCiAgcmVsZWFzZV9kYXRlOiAnMTk3Mi0wOS0xMycK
+ICB0YWdzOiBbIHByb2ctcm9jaywgdmludGFnZSBdCiAgaW1nOiAnaHR0cHM6
+Ly9pLnNjZG4uY28vaW1hZ2UvMDczMTczZDAzMDJmMjAxNDg5ZmU4ZWFkMzg0
+YmM4NWRjYWJiODE1YScKICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5j
+b20vYWxidW0vNjM0NHJrR3FDQkRlbkdvUzdlSmxCTicKCi0gdGl0bGU6IMOa
+bHRpbWEgbm90aWNpYQogIGFydGlzdDogJ1lpc3N5IEdhcmPDrWEsIEJhbmRh
+bmNoYScKICByZWxlYXNlX2RhdGU6ICcyMDE1JwogIHRhZ3M6IFsgamF6eiwg
+bGF0aW4gXQogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzU5NmEw
+MjJkNmFlNDdiMzhmYTI2NmYzMGZmOTY4YjY2MDE4MmNkZmMnCiAgdXJsOiAn
+aHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzNXOEZxckJyWDRuWWx6
+Q2lLaTFOVzknCgotIHRpdGxlOiBNb3RoZXIncyBNaWxrCiAgYXJ0aXN0OiBS
+ZWQgSG90IENoaWxpIFBlcHBlcnMKICByZWxlYXNlX2RhdGU6ICcxOTg5LTA4
+LTE2JwogIHRhZ3M6IFsgcm9jaywgZnVuaywgdmludGFnZSBdCiAgaW1nOiAn
+aHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvNWU1NTNkNjVlODRmZGU2MGUzMjkz
+Y2UyMTM4YTUyZTVmNWIzZWMxMCcKICB1cmw6ICdodHRwczovL29wZW4uc3Bv
+dGlmeS5jb20vYWxidW0vMW9Pa2NCdTViZ2tVelpUdktEMW04eicKCi0gdGl0
+bGU6IFRoZSBVcGxpZnQgTW9mbyBQYXJ0eSBQbGFuCiAgYXJ0aXN0OiBSZWQg
+SG90IENoaWxpIFBlcHBlcnMKICByZWxlYXNlX2RhdGU6ICcxOTg3JwogIHRh
+Z3M6IFsgcm9jaywgZnVuaywgdmludGFnZSBdCiAgaW1nOiAnaHR0cHM6Ly9p
+LnNjZG4uY28vaW1hZ2UvODRiZjQyYmNjMTMwZjg0N2Q0NGU1NjUxZjBiZGRk
+NjBmMzE1Mjk4MScKICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20v
+YWxidW0vNmhCbEpzU0l6NGJnakVIandjTGxaMycKCi0gdGl0bGU6IEZyZWFr
+eSBTdHlsZXkKICBhcnRpc3Q6IFJlZCBIb3QgQ2hpbGkgUGVwcGVycwogIHJl
+bGVhc2VfZGF0ZTogJzE5ODUtMDgtMTYnCiAgdGFnczogWyByb2NrLCBmdW5r
+LCB2aW50YWdlIF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS83
+MGVlZGJiNDQ0MTM5NmJhMGFlYjAxNjM3OWI4YWRkZjc0NzYxNDM3JwogIHVy
+bDogJ2h0dHBzOi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS8xME9xaG9xMmFr
+U0pudXJKT1BrOHhUJwoKLSB0aXRsZTogU3RlcmVvbGl0aGljCiAgYXJ0aXN0
+OiAnMzExJwogIHJlbGVhc2VfZGF0ZTogJzIwMTQtMDMtMTEnCiAgdGFnczog
+WyByb2NrLCBmdW5rLCBlbmVyZ3kgXQogIGltZzogJ2h0dHBzOi8vaS5zY2Ru
+LmNvL2ltYWdlL2RlOWZjYjZkMWFmNDZkM2Q3NjFhODI1YTEwMWI1NzU0MGRm
+OTJmZDInCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVt
+LzZncncwQlU1Tnd2dXZNbW94TUFsYU8nCgotIHRpdGxlOiBJbiBSYWluYm93
+cwogIGFydGlzdDogUmFkaW9oZWFkCiAgcmVsZWFzZV9kYXRlOiAnMjAwNy0x
+Mi0yOCcKICB0YWdzOiBbIHJvY2ssIGNvbXBsZXggXQogIGltZzogJ2h0dHBz
+Oi8vaS5zY2RuLmNvL2ltYWdlLzAwZDk3Yzk5ZjlmYjU4NzJlOWE0NGYwNmFl
+N2UyMGZkMDExZGUxMjUnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnku
+Y29tL2FsYnVtLzdleVFYeHVmMm5HajlkMjM2N0dpNWYnCgotIHRpdGxlOiBQ
+cm9taXNlIEV2ZXJ5dGhpbmcgKERlbHV4ZSkKICBhcnRpc3Q6IEJhc2VtZW50
+CiAgcmVsZWFzZV9kYXRlOiAnMjAxNy0wMy0wMycKICB0YWdzOiBbIHJvY2ss
+IGVtbywgZW5lcmd5IF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9pbWFn
+ZS8yYTIzNThlYzdiODQwMTMxOTkyYzZkODNmZDU4NDRmNjQxZDExOWE3Jwog
+IHVybDogJ2h0dHBzOi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS8ySWM3U1Zh
+WnU2bG9SWGN6UzRWZllQJwoKLSB0aXRsZTogU2lsZW50IFdpdG5lc3MKICBh
+cnRpc3Q6IE92ZXJoZWFkCiAgcmVsZWFzZV9kYXRlOiAnMjAwMicKICB0YWdz
+OiBbIGphenosIHJvY2ssIGNvbXBsZXgsIHdlZWQgXQogIGltZzogJ2h0dHBz
+Oi8vaS5zY2RuLmNvL2ltYWdlLzM3NjY0OGVjNWVhMTIyZDE2OTU5ZWVhNDlm
+ZWUwYzExZDcyZDBkYzgnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnku
+Y29tL2FsYnVtLzFNMFNWTEdiaTZTZm5tWXFqOXFVQWcnCgotIHRpdGxlOiBI
+ZWF2eSBNZWRkbGVycwogIGFydGlzdDogRmF0aGVyIEZpZ3VyZQogIHJlbGVh
+c2VfZGF0ZTogJzIwMTQtMDktMjYnCiAgdGFnczogWyBwcm9nLXJvY2ssIG1h
+dGgtcm9jaywgY29tcGxleCBdCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28v
+aW1hZ2UvNDNiMDE2MjMxODAyNDA0OTZjMjVhZDgzNDQ4ODAzZjRkNTU4YzA5
+MScKICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vMU8y
+TTRTWjM0SVYyMUZMVEZpa0kzYycKCi0gdGl0bGU6IEZyYW1lcwogIGFydGlz
+dDogT2NlYW5zaXplCiAgcmVsZWFzZV9kYXRlOiAnMjAxMy0wMy0wNScKICB0
+YWdzOiBbIHByb2ctcm9jaywgbWF0aC1yb2NrLCBjb21wbGV4IF0KICBpbWc6
+ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS80YWY1OGU0OGY2ZGUzMTJjZDBi
+M2IzYThiZWVjZjFhNzVlZDVjMGI4JwogIHVybDogJ2h0dHBzOi8vb3Blbi5z
+cG90aWZ5LmNvbS9hbGJ1bS81bHNZeFFnZUR2ZW4wOTY0NEZzOTdtJwoKLSB0
+aXRsZTogVGhlIFBob3NwaG9yZXNjZW50IEJsdWVzCiAgYXJ0aXN0OiBQdW5j
+aCBCcm90aGVycwogIHJlbGVhc2VfZGF0ZTogJzIwMTUtMDEtMjMnCiAgdGFn
+czogWyBmb2xrLCB3ZWVkIF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9p
+bWFnZS9jMGI5M2EyOGMzMzVjMDE1OGI0YzQ0ZTcwNTk0ZjgyMDZjMzNkOWU4
+JwogIHVybDogJ2h0dHBzOi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS8zY2Rx
+cGp3dVR2RGVMZTNSWUlHYjBqJwoKLSB0aXRsZTogRGVtdXJlCiAgYXJ0aXN0
+OiBFbmdpbmUgRG93bgogIHJlbGVhc2VfZGF0ZTogJzIwMDItMDQtMDEnCiAg
+dGFnczogWyBlbW8sIHJvY2sgXQogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNv
+L2ltYWdlLzA0MTQyZjc3YjQwNjgwYzYyNjUwM2YzYzRiNWNmYjJhOWMzMzQ0
+ZDAnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzB0
+UVlGaVJsZkttNUNhdjV0enpWcUcnCgotIHRpdGxlOiBBbnRlbm5hCiAgYXJ0
+aXN0OiBDYXZlIEluCiAgcmVsZWFzZV9kYXRlOiAnMjAwMy0wMi0yNCcKICB0
+YWdzOiBbIGVtbywgcm9jaywgc3BhY2Utcm9jayBdCiAgaW1nOiAnaHR0cHM6
+Ly9pLnNjZG4uY28vaW1hZ2UvNDNiMmNlMzZhZjJkMDA4ZWE2ZDY3NTE2Yjcx
+ZTliZmRlZjM1NjAyYycKICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5j
+b20vYWxidW0vNHhKbnRTSXJJV0liR3Vyb3ZOUWJUaCcKCi0gdGl0bGU6IE1h
+Z25pZmllZAogIGFydGlzdDogRmFpbHVyZQogIHJlbGVhc2VfZGF0ZTogJzIw
+MDUnCiAgdGFnczogWyBlbW8sIHJvY2ssIHNwYWNlLXJvY2sgXQogIGltZzog
+J2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzI1OTlmZjRjOGU5OGUzMzA5MzVi
+NDRlOTdlNzI3YWQyODk1ODMyN2YnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNw
+b3RpZnkuY29tL2FsYnVtLzRPMExvc2Zyd0R5Rno4VTNnSk9XU2YnCgotIHRp
+dGxlOiBTY2llbmNlIEZpY3Rpb24KICBhcnRpc3Q6IEJyYW5kIE5ldwogIHJl
+bGVhc2VfZGF0ZTogJzIwMTctMDgtMTgnCiAgdGFnczogWyBkaiwgdHJpcC1o
+b3AsIHdlZWQgXQogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzZi
+MDViNzZhMGQzNzVjMDBjMmYxMjQzNTFlOGFmNDZmZTM2YzYwNWQnCiAgdXJs
+OiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzM3UnpxNFNBcWVG
+V0xaV0wwU2NyY0MnCgotIHRpdGxlOiAnVGh1bmRlciwgTGlnaHRuaW5nLCBT
+dHJpa2UnCiAgYXJ0aXN0OiBUaGUgR28hIFRlYW0KICByZWxlYXNlX2RhdGU6
+ICcyMDA0LTEwLTAyJwogIHRhZ3M6IFsgZW5lcmd5LCBicmVhay1iZWF0LCBy
+YXAgXQogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlL2E3ZTQ4ZWVk
+YWNmZGQzNjRkOGM5MTI0NjQzZjY2YjBlOTJiOTVjMDMnCiAgdXJsOiAnaHR0
+cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzBnRU1LdmlqMUE1OWZWUVE3
+QTdib3InCgotIHRpdGxlOiBBcmUgV2UgVGhlcmUKICBhcnRpc3Q6IFNoYXJv
+biBWYW4gRXR0ZW4KICByZWxlYXNlX2RhdGU6ICcyMDE0LTA1LTI3JwogIHRh
+Z3M6IFsgcm9jaywgZm9saywgZGFyaywgd2VlZCBdCiAgaW1nOiAnaHR0cHM6
+Ly9pLnNjZG4uY28vaW1hZ2UvM2UzMGI5ZDk3YjMyMmY3Y2Y3ZDljMjk1YzUz
+MGE3OGEwNzJmZjk3MycKICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5j
+b20vYWxidW0vMEYxcE1oRjhWeTc0bktrUWVMQmZyZCcKCi0gdGl0bGU6IFRo
+aXMgVGltZQogIGFydGlzdDogSmFtZXMgJiBCbGFjawogIHJlbGVhc2VfZGF0
+ZTogJzIwMTctMDctMTInCiAgdGFnczogWyBibHVlcywgamF6eiwgc291bCBd
+CiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvMjI0OTU2MjI1MzI0
+MTVlNzFmYTg5MDlkNzNhN2ZjNmI2ZjdmODdkZCcKICB1cmw6ICdodHRwczov
+L29wZW4uc3BvdGlmeS5jb20vYWxidW0vNk5PeWg4NkRxMzBPMlFBNk41TUNo
+UicKCi0gdGl0bGU6IEFmcm9kZWV6aWEKICBhcnRpc3Q6IE1hcmN1cyBNaWxs
+ZXIKICByZWxlYXNlX2RhdGU6ICcyMDE1LTAzLTAyJwogIHRhZ3M6IFsgamF6
+eiwgd29ybGQgXQogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzIw
+NmI5ZjljOTQ1ZjEzMDU0YWEzNmYyZGE5ZTVjYzY0YTU1YmNhMTUnCiAgdXJs
+OiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzY3U2I2ZjFkc2pI
+WlhuQnIzUjVJRFAnCgotIHRpdGxlOiBMYSB0cmFuc2UgZGVzIG9pc2VhdXgK
+ICBhcnRpc3Q6IExlIFZhc2NvCiAgcmVsZWFzZV9kYXRlOiAnMjAxNicKICB0
+YWdzOiBbIHRyaXAtaG9wLCBoaXAtaG9wLCBmcmFuY2UgXQogIGltZzogJ2h0
+dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzIzYzFjMzFjOGVhZWY1N2U5NTNmZTE1
+MjFhNDVmMTJhYWZiYTM1ZDInCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3Rp
+ZnkuY29tL2FsYnVtLzdFYVRmdGx5dzBXRnBKSTBjdUVacVQnCgotIHRpdGxl
+OiBDb2xvdXJtZWlua2luZG5lc3MKICBhcnRpc3Q6IEJhc2VtZW50CiAgcmVs
+ZWFzZV9kYXRlOiAnMjAxMi0xMC0yMycKICB0YWdzOiBbIHJvY2ssIGVtbywg
+ZW5lcmd5IF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS8yNDMz
+YjA1MjFjODY4MzNjZWIyOTc3MGM4YmE1Nzg1Y2NjZmVjOTU0JwogIHVybDog
+J2h0dHBzOi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS83MHluNzJyUzI4RzFq
+aWVhQkhsWmhZJwoKLSB0aXRsZTogUmVzdGxlc3NuZXNzCiAgYXJ0aXN0OiBN
+YW4gSXMgTm90IGEgQmlyZAogIHJlbGVhc2VfZGF0ZTogJzIwMTItMTEtMTIn
+CiAgdGFnczogWyBpbnN0cnVtZW50YWwsIHBvc3Qtcm9jaywgbWF0aC1yb2Nr
+IF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS80OTQ3ZjZiODhj
+ZjlmNDI2MDY0ODhkOWM4NDMwZTZhZDdkMzdkM2NjJwogIHVybDogJ2h0dHBz
+Oi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS8zOEJ4eDZyUUJzYWdiQXJwMzZS
+cUVNJwoKLSB0aXRsZTogSGlzYWlzaGkgTWVldHMgTWl5YXpha2kgRmlsbXMK
+ICBhcnRpc3Q6IEpvZSBIaXNhaXNoaQogIHJlbGVhc2VfZGF0ZTogJzE5OTcn
+CiAgdGFnczogWyBjbGFzc2ljYWwsIG9zdCwgcG9ldHJ5LCBpbnRyb3NwZWN0
+aXZlLCBpbnN0cnVtZW50YWwgXQogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNv
+L2ltYWdlL2RjNjA0YjI1YWRjYjkyMTE4NjAzZjg1ZjEzOTNiMGNjYjc1MjU2
+OWQnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzFD
+VWo0YmZEYWRmZVFFNk1Ca0RpbGknCgotIHRpdGxlOiBDbGVhbmhlYWQgRVAK
+ICBhcnRpc3Q6IE9jZWFuYQogIHJlbGVhc2VfZGF0ZTogJzIwMTAtMDUtMTAn
+CiAgdGFnczogWyBlbW8sIHBvc3Qtcm9jaywgbWF0aC1yb2NrLCBpbnRyb3Nw
+ZWN0aXZlIF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS9mNjU1
+NTM2ZTcyMmMxMDgzOTU1ZGZhNTYyMDNiN2RiMzg3NGY1NTZlJwogIHVybDog
+J2h0dHBzOi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS82c1VLWUZaZXQ1N3Fm
+bjlJbE9DazVZJwoKLSB0aXRsZTogU2ltcGxpY2l0eQogIGFydGlzdDogQ3Vy
+dGlzcwogIHJlbGVhc2VfZGF0ZTogJzIwMDUtMTAtMDEnCiAgdGFnczogWyBl
+bW8sIHJvY2ssIGludHJvc3BlY3RpdmUgXQogIGltZzogJ2h0dHBzOi8vaS5z
+Y2RuLmNvL2ltYWdlL2UxYTJlN2NmZGMxYzM4NmI1NjBhMTMyMDQzYjA0NTE4
+ZmZlYzUzZmQnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2Fs
+YnVtLzRjZ1hkdWlsTFZqTnVJTUJJYlVVSU4nCgotIHRpdGxlOiAnR2hvc3Qg
+RGF5cyBbTmV3IEVkaXRpb25dJwogIGFydGlzdDogU3lkIE1hdHRlcnMKICBy
+ZWxlYXNlX2RhdGU6ICcyMDA4LTA4LTIyJwogIHRhZ3M6IFsgZm9saywgaW50
+cm9zcGVjdGl2ZSBdCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2Uv
+OGZlMTM1ODlmNTI3YmE0M2UyZDJhYjM1MTk1MDkyMGJlYzliOWU4ZCcKICB1
+cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vNkZVYmVnbWhL
+ck1SbXExcWs5T2tiRycKCi0gdGl0bGU6IEFuIEF3ZXNvbWUgV2F2ZQogIGFy
+dGlzdDogYWx0LUoKICByZWxlYXNlX2RhdGU6ICcyMDEyLTA1LTI4JwogIHRh
+Z3M6IFsgZm9saywgaW50cm9zcGVjdGl2ZSwgcG9wdWxhciwgdHJpcC1ob3Ag
+XQogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzNkMGQ0ZTEzZTgw
+NTQ1YTI0OTc3ZTZhZWQ3MjhjNGI0Mzc2MGIxOTQnCiAgdXJsOiAnaHR0cHM6
+Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzdIT3p2UDdUYTJsTHVlb2pkbEp0
+ZFonCgotIHRpdGxlOiAnRGlzdGFudCBXb3JsZHM6IG11c2ljIGZyb20gRmlu
+YWwgRmFudGFzeScKICBhcnRpc3Q6IE5vYnVvIFVlbWF0c3UKICByZWxlYXNl
+X2RhdGU6ICcyMDA3LTEyLTA0JwogIHRhZ3M6IFsgY2xhc3NpY2FsLCBvc3Qs
+IGluc3RydW1lbnRhbCBdCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1h
+Z2UvNDZhYjMwMGZhN2JiODFhOGJkNjBhMDc5YzIyZDVjMTRmYWQzY2UzZCcK
+ICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vNTFNWEV2
+RDk2Y0lIOG9PaFdhbnpXMycKCi0gdGl0bGU6IE9yYml0cwogIGFydGlzdDog
+U3RhcmtleQogIHJlbGVhc2VfZGF0ZTogJzIwMTItMTEtMjYnCiAgdGFnczog
+WyBkYXJrLCBlbGVjdHJvbmljLCB0cmFwLCBpbnN0cnVtZW50YWwsIHVyYmFu
+IF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS9mMTNjODliODJl
+YWNkZTg2NTM1MTgyYWI4ODkzODY5YjEwY2FmYjViJwogIHVybDogJ2h0dHBz
+Oi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS8zQnZRZklIaUNkc0poa0I2UmpQ
+WnNMJwoKLSB0aXRsZTogQ3JpbWUgT2YgVGhlIENlbnR1cnkgKFJlbWFzdGVy
+ZWQpCiAgYXJ0aXN0OiBTdXBlcnRyYW1wCiAgcmVsZWFzZV9kYXRlOiAnMTk3
+NC0wOS0wMScKICB0YWdzOiBbIHZpbnRhZ2UsIHJvY2ssIHBvcHVsYXIgXQog
+IGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzYwMDAwOWYzMDdkM2Nl
+YjE2NzcxM2NhNGIyNjcyZWM1MjVhZWQ3YmEnCiAgdXJsOiAnaHR0cHM6Ly9v
+cGVuLnNwb3RpZnkuY29tL2FsYnVtLzNGdjRUSlE5aVEwRENMSHYwMjEyMlon
+CgotIHRpdGxlOiBQZXQgR2VuaXVzCiAgYXJ0aXN0OiBQZXQgR2VuaXVzCiAg
+cmVsZWFzZV9kYXRlOiAnMjAwNycKICB0YWdzOiBbIGZvbGssIHJvY2ssIHBy
+b2ctcm9jayBdCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvN2Vl
+MGFhOWM1OGU4YjlmMDE4YjhlMDU0MjYwOGU4NDY3NzM5YWRmYycKICB1cmw6
+ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vMVlJeWlnRWZhMHhB
+VWNnTlVuWHJYcicKCi0gdGl0bGU6IFNreSBFYXRzIEFpcnBsYW5lCiAgYXJ0
+aXN0OiBTa3kgRWF0cyBBaXJwbGFuZQogIHJlbGVhc2VfZGF0ZTogJzIwMDgt
+MDgtMDUnCiAgdGFnczogWyBwb3N0LWhhcmRjb3JlLCBtZXRhbGNvcmUsIG1h
+dGgtcm9jaywgY29tcGxleCwgbml0ZW5kb2NvcmUgXQogIGltZzogJ2h0dHBz
+Oi8vaS5zY2RuLmNvL2ltYWdlL2IzNmNlNDhmZWUwYmZiNzYwNjUwNDliZTVm
+YTZhMWFiZTkyYTJjYzUnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnku
+Y29tL2FsYnVtLzRSYnJOVU9ZU0xxRms0aUxqNFhPdXAnCgotIHRpdGxlOiBX
+ZWF0aGVyaGVhZAogIGFydGlzdDogSGVsbXMgQWxlZQogIHJlbGVhc2VfZGF0
+ZTogJzIwMTEtMDgtMjMnCiAgdGFnczogWyBkYXJrLCBwb3N0LWhhcmRjb3Jl
+LCBwb3N0LXJvY2ssIGNvbXBsZXggXQogIGltZzogJ2h0dHBzOi8vaS5zY2Ru
+LmNvL2ltYWdlLzRmMzU0NWFjN2U4ZDllMWY5ODM0NTA2M2JjNWQyNDNmYmMz
+MTVhYjAnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVt
+LzNGYkR5d05YSFdrZ3Q3bENBWXV5TkEnCgotIHRpdGxlOiBMaWdodCBCZWFy
+ZXIKICBhcnRpc3Q6ICcmdSZpJwogIHJlbGVhc2VfZGF0ZTogJzIwMTEtMTAt
+MDcnCiAgdGFnczogWyBlbW8sIHBvc3QtaGFyZGNvcmUsIHJvY2ssIGNvbXBs
+ZXgsIGVuZXJneSBdCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2Uv
+ZTYxYWZhMmMwYWIwMzBlYWM4MjNhNzIzMTM3NmZmNjVjZGYwMmI1YicKICB1
+cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vNkFEVXRUbE5q
+RFd4QUk3VkJ0dTJTRicKCi0gdGl0bGU6IENvbnRyb2xsZXIKICBhcnRpc3Q6
+IE1pc2VyeSBTaWduYWxzCiAgcmVsZWFzZV9kYXRlOiAnMjAwOCcKICB0YWdz
+OiBbIHBvc3QtaGFyZGNvcmUsIGVtbywgbWV0YWxjb3JlLCBjb21wbGV4LCBw
+b3dlciBdCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvOTRhYTNl
+NTU3Y2JhMGIxNTlhZDIwOGM0ZWVlOWQ1MWZiOTQ2YTRiMScKICB1cmw6ICdo
+dHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vNDhRVUVXbHN0SXBybk96
+UGtMZUJhOCcKCi0gdGl0bGU6IEludG8gVGhlIFZhbGxleSBPZiBEZWF0aAog
+IGFydGlzdDogRGVhdGggQnkgU3RlcmVvCiAgcmVsZWFzZV9kYXRlOiAnMjAw
+NC0xMC0wMScKICB0YWdzOiBbIHBvc3QtaGFyZGNvcmUsIGVtbywgZW5lcmd5
+IF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS9mMThlMjdlMTk2
+MzU2YzBkMTc0NGFmNjRhZDgxYTM0NGVhZTM4MmE4JwogIHVybDogJ2h0dHBz
+Oi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS8yckJZdnR6R0tXbW02cWtSN3dt
+Vm96JwoKLSB0aXRsZTogTWVzc2VuZ2VycwogIGFydGlzdDogQXVndXN0IEJ1
+cm5zIFJlZAogIHJlbGVhc2VfZGF0ZTogJzIwMDcnCiAgdGFnczogWyBwb3N0
+LWhhcmRjb3JlLCBtZXRhbGNvcmUsIGNvbXBsZXgsIGVtbyBdCiAgaW1nOiAn
+aHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvN2M0NDZkNGE2NDA0Njk1Mzk3Zjdl
+OWY1YTIwNDdiNmE5OWMxZDczZicKICB1cmw6ICdodHRwczovL29wZW4uc3Bv
+dGlmeS5jb20vYWxidW0vMTZJSnBhTE0zM0lTSFV1SmRKd0NZVCcKCi0gdGl0
+bGU6IFRoZSBUaWRlCiAgYXJ0aXN0OiBPY2VhbmEKICByZWxlYXNlX2RhdGU6
+ICcyMDA4LTAzLTA0JwogIHRhZ3M6IFsgcG9zdC1oYXJkY29yZSwgbWV0YWxj
+b3JlLCBjb21wbGV4LCBlbW8gXQogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNv
+L2ltYWdlLzE4NWI0ZDk5NzI4YzI3YWFhZmVhOGRlNGY0NWM1NDU0MDE0MDM5
+YjUnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzRi
+SDRyTGM4cktMNVBwVGN0VXNmWUsnCgotIHRpdGxlOiBUaGUgT3Bwb3NpdGUg
+T2YgRGVjZW1iZXIgLyBUZWFyIEZyb20gVGhlIFJlZAogIGFydGlzdDogUG9p
+c29uIFRoZSBXZWxsCiAgcmVsZWFzZV9kYXRlOiAnMjAxMi0xMS0xOScKICB0
+YWdzOiBbIHBvc3QtaGFyZGNvcmUsIG1ldGFsY29yZSwgY29tcGxleCwgZW1v
+IF0KICBpbWc6ICdodHRwczovL2kuc2Nkbi5jby9pbWFnZS85NDhjOTc0ZTgx
+YjQ2YjUxNGNlMmRhYzFlYjQxYTBkZWIwYzJkM2M1JwogIHVybDogJ2h0dHBz
+Oi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1bS82YTI5ZGUxY1VIS2duRXhUM3dn
+dTh5JwoKLSB0aXRsZTogUHV6emxlCiAgYXJ0aXN0OiBCaWZmeSBDbHlybwog
+IHRhZ3M6IFsgcm9jayBdCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1h
+Z2UvMjcwZWE5M2IzOGRiMzQ1Y2RiYzgwM2VhMmRhZDZkZjgzYjA0Njc5OCcK
+ICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vMzZ3dldl
+T2IzbjNHQmlmdENRV3VzZScKCi0gdGl0bGU6IE1vZGVybmUgSW5jaWRlbnRh
+bAogIGFydGlzdDogTmVpbW8KICB0YWdzOiBbIHJvY2ssIGZyYW5jZSBdCiAg
+aW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvYjc2MmVhZjczNTllNjA0
+NGRjMTUwNTFkNjE5YjJiZTY5ZmFkNGEwMicKICB1cmw6ICdodHRwczovL29w
+ZW4uc3BvdGlmeS5jb20vYWxidW0vNWlvMlVwZzBweVpvNE93aFRLNnVOMScK
+Ci0gdGl0bGU6IExpZmUKICBhcnRpc3Q6IEtOT1dFUgogIHRhZ3M6IFsgd2Vp
+cmQsIGNyYXp5LCBlbmVyZ2V0aWMsIGZ1bmssIGphenogXQogIHJlbGVhc2Vf
+ZGF0ZTogJzIwMTYtMDItMDUnCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28v
+aW1hZ2UvZjBjMjZkN2Q1ZGY3MTEyMjJhYTZkZTZkMDk2ZWU2MzNlMGMzYjZi
+YycKICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vNFNW
+eHo4eXFJeW1EcmRpWDJZQmVRZScKCi0gdGl0bGU6IE1vdXZlbWVudAogIGFy
+dGlzdDogTWVybW9udGUKICB0YWdzOiBbIHBvc3Qtcm9jaywgZnJhbmNlLCBm
+b2xrIF0KICByZWxlYXNlX2RhdGU6ICcyMDE4LTEwLTE5JwogIGltZzogJ2h0
+dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzY1MzNjMWNlYWExZThiYjc4NGQ3NTM5
+NzUzYTk0ZWUyMmVlOTBlNTAnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3Rp
+ZnkuY29tL2FsYnVtLzYxMjRSY2NvcjdFV3ZBeFlNZjEwSlQnCgotIHRpdGxl
+OiBIb3QgRnVzcwogIGFydGlzdDogVGhlIEtpbGxlcnMKICB0YWdzOiBbIHJv
+Y2ssIHBvcCBdCiAgcmVsZWFzZV9kYXRlOiAnMjAwNCcKICBpbWc6ICdodHRw
+czovL2kuc2Nkbi5jby9pbWFnZS9hYzY4YTllNGE4NjdlYzNjZTgyNDljZDkw
+YTJkN2M3Mzc1NWZiNDg3JwogIHVybDogJ2h0dHBzOi8vb3Blbi5zcG90aWZ5
+LmNvbS9hbGJ1bS80T0hOSDNzRHpJeG5tVUFEWHp2MmtUJwoKLSB0aXRsZTog
+T2N0YXZlIE11c2V1bQogIGFydGlzdDogU3RlcGhlbiBCcm9kc2t5CiAgcmVs
+ZWFzZV9kYXRlOiAnMjAxMS0wOS0wNicKICBpbWc6ICdodHRwczovL2kuc2Nk
+bi5jby9pbWFnZS83N2EzN2RiYjUxNzY1OWU0MmM1NDE0OWQwMWY5ZWViYmUw
+MzRhMjE5JwogIHVybDogJ2h0dHBzOi8vb3Blbi5zcG90aWZ5LmNvbS9hbGJ1
+bS83ZEplbnBXSTFWZVptb3QxZ0RBMm03JwogIHRhZ3M6IFsgaW5kaWUsIGZv
+bGsgXQoKLSB0aXRsZTogSHlwZXIgTGlnaHQgRHJpZnRlcgogIGFydGlzdDog
+RGlzYXN0ZXJwZWFjZQogIHJlbGVhc2VfZGF0ZTogJzIwMTYtMDQtMTMnCiAg
+aW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvZjNkM2M2ZjIwMzFmMDI0
+ZDgzYjE4YzZlZDhmNjM4YjBhNjA1MjVkYycKICB1cmw6ICdodHRwczovL29w
+ZW4uc3BvdGlmeS5jb20vYWxidW0vMzU4SGhMZWtQdmtnMTNBMWREUGZoVCcK
+ICB0YWdzOiBbIHZnbSwgYW1iaWVudCwgaW5zdHJ1bWVudGFsIF0KCi0gdGl0
+bGU6IFRoZSBFZ2cKICBhcnRpc3Q6IFNoaW5lcgogIHJlbGVhc2VfZGF0ZTog
+JzIwMDEtMDEtMDEnCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2Uv
+YjBhZWQxYjk0ZGRiYWNkZjhmZjE4OTNmMzIwZTkzYzFlOWQ4YTk4MScKICB1
+cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vNmpqN2pHQ0ha
+N29DZjVucVZ0MVBxUCcKICB0YWdzOiBbIHJvY2ssIGdydW5nZSwgc3RvbmVy
+IF0KCi0gdGl0bGU6IFBzeWVuY2UgRmljdGlvbgogIGFydGlzdDogVU5LTEUK
+ICByZWxlYXNlX2RhdGU6ICcxOTk4LTA5LTI5JwogIGltZzogJ2h0dHBzOi8v
+aS5zY2RuLmNvL2ltYWdlL2JkYTIyZjAwNzQyYTFlNWYxNzRhNGM2NzU0M2Q5
+NDM2M2VjZTkwMzInCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29t
+L2FsYnVtLzZEeHgwdnhMUTgzTEsxUE1aZXpsY1knCiAgdGFnczogWyBlbGVj
+dHJvbmljLCB0cmlwLWhvcCwgY2hpbGwgXQoKLSB0aXRsZTogUmV0dXJuIE9m
+IFNhdHVybgogIGFydGlzdDogTm8gRG91YnQKICByZWxlYXNlX2RhdGU6ICcy
+MDAwLTAxLTAxJwogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlLzBm
+NzYxOWY3Y2UxNmJhZDI3MmFjNjU4NTUyNWUzNzQ4MmNhNWNlMzQnCiAgdXJs
+OiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzNVQmZybTFMR0Fk
+T1pmbGdzbUNzTTInCiAgdGFnczogWyByb2NrLCBza2EsIHBvcCBdCgotIHRp
+dGxlOiBTaGlueSBFeWVkIEJhYmllcwogIGFydGlzdDogQmVudCBLbmVlCiAg
+cmVsZWFzZV9kYXRlOiAnMjAxNC0xMS0xMScKICBpbWc6ICdodHRwczovL2ku
+c2Nkbi5jby9pbWFnZS80NWE5ZTZkMjQ4ZGVkM2VmM2U1MGEwMWZlYjI5NzRi
+MDk3ZmNkNzczJwogIHVybDogJ2h0dHBzOi8vb3Blbi5zcG90aWZ5LmNvbS9h
+bGJ1bS8xZnpnbG1YR29DdkVoQTNNWk5Cd2RmJwogIHRhZ3M6IFsgbWF0aC1y
+b2NrLCBpbmRpZSBdCgotIHRpdGxlOiBUaGlyZCBFeWUgQmxpbmQKICBhcnRp
+c3Q6IFRoaXJkIEV5ZSBCbGluZAogIHJlbGVhc2VfZGF0ZTogJzE5OTctMDQt
+MDgnCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvNTNlMDg5ZDM2
+OGY0ZmZlNjlhYzY2ZWY3YWNkMDNjZjI3M2RiOWYyMycKICB1cmw6ICdodHRw
+czovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vMmdUb0MwWEFibEU5aDNVWkQ2
+YUFhUScKICB0YWdzOiBbIHJvY2ssIHBvcCwgZW1vIF0KCi0gdGl0bGU6IFdh
+dmVzCiAgYXJ0aXN0OiBUaGUgTmV3IFdpbmUKICByZWxlYXNlX2RhdGU6ICcy
+MDExLTAzLTA3JwogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlL2Zm
+NWNlYWJjMWNjOTM2MGM1YmYxYjNjYjIyYTM5OTI5NGJiYjNkZDUnCiAgdXJs
+OiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzB4MHBXMzBkNUNY
+cGptcUJjMFBqR0UnCiAgZGF0ZV9kaXNjb3ZlcmVkOiAnMjAwOScKICB0YWdz
+OiBbIHBvcCBdCgotIHRpdGxlOiBDb21wdXRlciBTYXZ2eQogIGFydGlzdDog
+VGhlIEouIEFydGh1ciBLZWVuZXMgQmFuZAogIHJlbGVhc2VfZGF0ZTogJzIw
+MTEtMDUtMzEnCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvODcz
+YzYxOTJkOTY2OWVkM2FlZmVkMmZkMzdiYzNmYjYzNmVkYmRjZicKICB1cmw6
+ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vMG5scWlUNDNTWVZz
+SnVHTlV4dFBZbicKICBkYXRlX2Rpc2NvdmVyZWQ6ICcyMDE4JwogIHRhZ3M6
+IFsgY2hpcHR1bmUsIHBvcCBdCgotIHRpdGxlOiBVbmEgdGFycmEgY2kgaMOo
+CiAgYXJ0aXN0OiBBIEZpbGV0dGEKICByZWxlYXNlX2RhdGU6ICcyMDE0LTA2
+LTMwJwogIGltZzogJ2h0dHBzOi8vaS5zY2RuLmNvL2ltYWdlL2FiNjc2MTZk
+MDAwMGIyNzMzOTQ5ZDcxZjE5NWNiNmE4MWU2ZWIwMTEnCiAgdXJsOiAnaHR0
+cHM6Ly9vcGVuLnNwb3RpZnkuY29tL2FsYnVtLzIwV0VlR3RsaFVpN3kwakZH
+Y04wcUwnCiAgdGFnczogWyBmb2xrIF0KCi0gdGl0bGU6IEFicmljb3RpbmUK
+ICBhcnRpc3Q6IEVpZmZlbAogIHJlbGVhc2VfZGF0ZTogJzIwMDEnCiAgaW1n
+OiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvYWYwNTI2ODY4NzUxYzhmNzE3
+Y2E0M2UxN2MzY2Q3N2M5YjQyMjIwMCcKICB1cmw6ICdodHRwczovL29wZW4u
+c3BvdGlmeS5jb20vYWxidW0vMGNGc1FKR1RRbVoyYkY4WEJqMHEzeicKICB0
+YWdzOiBbIHBvcCwgcm9jayBdCgotIHRpdGxlOiBUaGUgRmxhbWUgSW4gdGhl
+IEV5ZSAtIEVQCiAgYXJ0aXN0OiBNeXJhIExlZQogIHJlbGVhc2VfZGF0ZTog
+JzIwMTEtMDQtMTEnCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2Uv
+ZTFlZTFiMzhlNWFmMzgyNmI2NTZlNzhiYjFkODA5ODEwZGRkZGQyMicKICB1
+cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vM21YVnNpV2Vr
+SXRDTk9sWEV6VFZWTScKICB0YWdzOiBbIGluZGllIF0KCi0gdGl0bGU6IFJp
+c2Ugb2YgdGhlIE9ic2lkaWFuIEludGVyc3RlbGxhcgogIGFydGlzdDogRGlz
+YXN0ZXJwZWFjZQogIHJlbGVhc2VfZGF0ZTogJzIwMTMtMDUtMDcnCiAgaW1n
+OiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvYWI2NzYxNmQwMDAwYjI3M2Ix
+ZjQwYmFkNTBlYTBhYzU0YWZmNTdiMycKICB1cmw6ICdodHRwczovL29wZW4u
+c3BvdGlmeS5jb20vYWxidW0vNTJYakdnMHV3T0pCRXFZWTFEaEtzVScKICB0
+YWdzOiBbIGNoaXB0dW5lLCBpbnN0cnVtZW50YWwsIHZnbSBdCgotIHRpdGxl
+OiBNdWNoIEFnYWluc3QgRXZlcnlvbmUncyBBZHZpY2UKICBhcnRpc3Q6IFNv
+dWx3YXgKICByZWxlYXNlX2RhdGU6ICcxOTk5JwogIGltZzogJ2h0dHBzOi8v
+aS5zY2RuLmNvL2ltYWdlL2FiNjc2MTZkMDAwMGIyNzNhZTVmZmIwYWM0ZjA2
+OGZmMzU0MTNmZTAnCiAgdXJsOiAnaHR0cHM6Ly9vcGVuLnNwb3RpZnkuY29t
+L2FsYnVtLzdkRWxuQnFuUUN2QUZhMlB6QUF3alEnCiAgdGFnczogWyBwb3As
+IHJvY2ssIGVsZWN0cm8gXQoKLSB0aXRsZTogQ2h1cmNoIFdpdGggTm8gTWFn
+aWMKICBhcnRpc3Q6IFBWVAogIHJlbGVhc2VfZGF0ZTogJzIwMTAtMDgtMDkn
+CiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvYWI2NzYxNmQwMDAw
+YjI3MzZhMjU1YmEyMjQ2MzY3MTdkNTM0YzdmMycKICB1cmw6ICdodHRwczov
+L29wZW4uc3BvdGlmeS5jb20vYWxidW0vNHNSNWxhOG1JSzZtUkUydURWTkVa
+SScKICB0YWdzOiBbIGV4cGVyaW1lbnRhbCwgcm9jaywgZWxlY3RybyBdCgot
+IHRpdGxlOiBzeXJ0aXMgbWFqb3IKICBhcnRpc3Q6IHN5cnRpcyBtYWpvcgog
+IHJlbGVhc2VfZGF0ZTogJzIwMTUtMDEtMjUnCiAgaW1nOiAnaHR0cHM6Ly9m
+NC5iY2JpdHMuY29tL2ltZy9hNDEzODg4MDk1Nl8xNi5qcGcnCiAgdXJsOiAn
+aHR0cHM6Ly9zeXJ0aXNtYWpvci5iYW5kY2FtcC5jb20vYWxidW0vc3lydGlz
+LW1ham9yJwogIHRhZ3M6IFsgcG9zdC1yb2NrLCBpbmRpZSBdCgotIHRpdGxl
+OiBHaXJvdWV0dGUKICBhcnRpc3Q6IEdlbmVyYWwgQnllIEJ5ZQogIHJlbGVh
+c2VfZGF0ZTogJzIwMTAtMDUtMTknCiAgaW1nOiAnaHR0cHM6Ly9mNC5iY2Jp
+dHMuY29tL2ltZy9hMzE0NzM1OTg3OF8xNi5qcGcnCiAgdXJsOiAnaHR0cHM6
+Ly9nZW5lcmFsYnllYnllLmJhbmRjYW1wLmNvbS9hbGJ1bS9naXJvdWV0dGUn
+CiAgdGFnczogWyBpbmRpZSwgcG9wIF0KCi0gdGl0bGU6IENvbmdyYXR1bGF0
+aW9ucwogIGFydGlzdDogTUdNVAogIHJlbGVhc2VfZGF0ZTogJzIwMTEtMDEt
+MTAnCiAgaW1nOiAnaHR0cHM6Ly9pLnNjZG4uY28vaW1hZ2UvYWI2NzYxNmQw
+MDAwYjI3M2EyZDlhZmVhMWUzNjBjNTc3NmQ0ZmQxZicKICB1cmw6ICdodHRw
+czovL29wZW4uc3BvdGlmeS5jb20vYWxidW0vMjlqMnhWTDhsU0NwS0RVZTRv
+Mkl1bCcKICB0YWdzOiBbIHBzeWNoZWRlbGljLCByb2NrLCBwb3AgXQoKLSB0
+aXRsZTogJ0Nocm9ubyBUcmlnZ2VyIFN5bXBob255LCBWb2wuIDEnCiAgYXJ0
+aXN0OiBUaGUgQmxha2UgUm9iaW5zb24gU3ludGhldGljIE9yY2hlc3RyYQog
+IHJlbGVhc2VfZGF0ZTogJzIwMTMtMDgtMjInCiAgaW1nOiAnaHR0cHM6Ly9p
+LnNjZG4uY28vaW1hZ2UvYWI2NzYxNmQwMDAwYjI3M2IxYzdmYzc4NjRhNzgy
+Y2ZjYTY5ZjA4OCcKICB1cmw6ICdodHRwczovL29wZW4uc3BvdGlmeS5jb20v
+YWxidW0vMzE2endPNkE1ZGozRndySTRJZ1hKSycKICB0YWdzOiBbIHZnbSwg
+b3JjaGVzdHJhbCBdCgotIHRpdGxlOiAnU3VwZXIgTWV0cm9pZCBTeW1waG9u
+eScKICBhcnRpc3Q6IFRoZSBCbGFrZSBSb2JpbnNvbiBTeW50aGV0aWMgT3Jj
+aGVzdHJhCiAgcmVsZWFzZV9kYXRlOiAnMjAxMy0wMy0xOScKICBpbWc6ICdo
+dHRwczovL2kxLnNuZGNkbi5jb20vYXJ0d29ya3MtMDAwMDQxMTczNTkzLXRv
+d3htMC10NTAweDUwMC5qcGcnCiAgdXJsOiAnaHR0cHM6Ly9zb3VuZGNsb3Vk
+LmNvbS9ibGFrZXRvdGhlZnV0dXJlL3NldHMvc3VwZXItbWV0cm9pZC1zeW1w
+aG9ueScKICB0YWdzOiBbIHZnbSwgb3JjaGVzdHJhbCBdCg==
+
+test
