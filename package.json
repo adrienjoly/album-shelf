@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/adrienjoly/album-shelf#readme",
   "devDependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "dotenv": "^6.0.0",
     "js-yaml": "^3.13.1",
     "spotify-web-api-node": "^4.0.0",
