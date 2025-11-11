@@ -529,12 +529,14 @@
   release_date: '2012-11-06'
   img: https://i.scdn.co/image/ab67616d0000b273441d1be1e00af07b430d2a0a
   url: https://open.spotify.com/album/0EN1gAz91UMiqqBYj1NqC6
+  tags: [ vgm, orchestral ]
 
 - title: Impossible Weight
   artist: Deep Sea Diver
   release_date: '2020-10-16'
   img: https://i.scdn.co/image/ab67616d0000b2732aa901ed876560a7f2d96e35
   url: https://open.spotify.com/album/3fatZKCQZShmBuJMY4hvsY
+  tags: [ indie, rock ]
 
 - title: 海街diary オリジナルサウンドトラック
   artist: Yoko Kanno
@@ -542,24 +544,30 @@
   img: https://i.scdn.co/image/ab67616d0000b273664c8cc0ab4947dc5a660722
   url: https://open.spotify.com/album/3zjLKUBam57KIIlHfuSXWX
 
-
 - title: NEVER ENOUGH
   artist: Turnstile
   release_date: '2025-06-06'
   img: https://i.scdn.co/image/ab67616d0000b2738386e4a4fb9d20e5008f4d71
   url: https://open.spotify.com/album/52yD51X7yDinwlg6tbCtpP
-
+  tags: [ indie, rock, hardcore ]
 
 - title: Homo Alien
   artist: Cock Robin
   release_date: '2021-09-17'
   img: https://i.scdn.co/image/ab67616d0000b273cec863b66eeae69f192924ad
   url: https://open.spotify.com/album/47BuiwglqrQSePoWKh1E9T
-
+  tags: [ pop, jazz, alternative ]
 
 - title: Billy Talent II
   artist: Billy Talent
   release_date: '2006-06-23'
   img: https://i.scdn.co/image/ab67616d0000b27351ad1636a7d0456ad972a71c
   url: https://open.spotify.com/album/0cTOvcvrbNiaiv4WXEUHzT
+  tags: [ rock, alternative ]
 
+- title: Bleed Your Cedar
+  artist: Elysian Fields
+  release_date: '1996-10-08'
+  img: https://f4.bcbits.com/img/a2029124671_16.jpg
+  url: https://elysianfields.bandcamp.com/album/bleed-your-cedar
+  tags: [ indie, rock, alternative ]
